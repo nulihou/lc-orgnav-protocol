@@ -9,8 +9,16 @@ authors:
     affiliation: "Dalian Neusoft University of Information"
 repository-code: "https://github.com/nulihou/lc-orgnav-protocol"
 license: MIT
-version: "1.0.0"
+version: "1.0.1"
+doi: "10.5281/zenodo.23395287"
 date-released: "2026-10-15"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23395286"
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.23395287"
+    description: "Version DOI (v1.0)"
 keywords:
   - autonomous driving
   - semantic target selection

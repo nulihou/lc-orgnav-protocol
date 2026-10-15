@@ -8,8 +8,8 @@
     },
     "experiments/P3/p3_tost.py": {
       "original_sha256": "bcf6b9a5ec9d0a6bafccf7b54d1ff777e2005c57bc81e3dd311bb93a848e3a30",
-      "released_sha256": "38db86989fa500314928128de9003cf050717a56a8b4c6b027a606977e439d6d",
-      "transform": "removed local project-root prefix only"
+      "released_sha256": "d511578895b6c6e35cfa1ef75275470ba17e8b8675ea3ee0480ae05b46534567",
+      "transform": "removed local project-root prefix; REPO root now read from env var LCORGNAV_R3_ROOT (default R3_revision_20261002). Script edit only; no frozen result changed."
     },
     "protocol_freeze/hard_confusable/historical_duplicate_groups.json": {
       "original_sha256": "27c3601d7bd9dd54c4938f124174d60137a3ccfe688ce7ef99c10430ff490611",
