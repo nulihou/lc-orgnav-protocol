@@ -1,0 +1,125 @@
+{
+  "note": "Files whose bytes differ from the frozen originals solely because local absolute path prefixes were removed before public release. original_sha256 equals the value recorded in the frozen manifests; no score, threshold, candidate ID or ordering was changed.",
+  "files": {
+    "experiments/P16/FREEZE.json": {
+      "original_sha256": "b2371d312e7f0674045a00efa313e3a9f1119aef2257f3fd40b316d981f93525",
+      "released_sha256": "ee14e243f186fc40879bc1d21507bee4c21cccd23fb501c29ed2cfc064097f58",
+      "transform": "removed local project-root prefix only"
+    },
+    "experiments/P3/p3_tost.py": {
+      "original_sha256": "bcf6b9a5ec9d0a6bafccf7b54d1ff777e2005c57bc81e3dd311bb93a848e3a30",
+      "released_sha256": "38db86989fa500314928128de9003cf050717a56a8b4c6b027a606977e439d6d",
+      "transform": "removed local project-root prefix only"
+    },
+    "protocol_freeze/hard_confusable/historical_duplicate_groups.json": {
+      "original_sha256": "27c3601d7bd9dd54c4938f124174d60137a3ccfe688ce7ef99c10430ff490611",
+      "released_sha256": "14e509ce37e1ac7739f3da4c6270fb61cf3e4e6c9f1bd99f68e9002797914115",
+      "transform": "local absolute paths rewritten as project-relative paths (staging sanitize)"
+    },
+    "protocol_freeze/hard_confusable/lists/test.txt": {
+      "original_sha256": "3a9e9aecb8fbef0b30d54e768dea6da7a0e218aee89e6deca6321adb04fa6526",
+      "released_sha256": "2ee53f10f116c4da2b04bee63bf2b992b161d828bfc4db3adb01ea3e919cad2a",
+      "transform": "local absolute paths rewritten as project-relative paths (staging sanitize)"
+    },
+    "protocol_freeze/hard_confusable/lists/train.txt": {
+      "original_sha256": "d4b8d6b36384d1a4fb80aeb561992b78eb85e5556e53e8583e14a9e570fb2249",
+      "released_sha256": "ef60db6716b333fee923e8ce82198d86f57e1a5f5321879353077df19eb30175",
+      "transform": "local absolute paths rewritten as project-relative paths (staging sanitize)"
+    },
+    "protocol_freeze/hard_confusable/lists/val.txt": {
+      "original_sha256": "6202c3b34a1ebb4f95e7e828e3f05b34d98b55bc90cd1ec574e939d7fd8e96bf",
+      "released_sha256": "65b305c3b853bf3ca96516e497c31a4e38ca0e32953e99c99b06661c4338de44",
+      "transform": "local absolute paths rewritten as project-relative paths (staging sanitize)"
+    },
+    "protocol_freeze/hard_confusable/removed_historical_samples.json": {
+      "original_sha256": "4434605772212048b377eaf38004323a19d4abc9be8a86922dbb0d8940d47445",
+      "released_sha256": "ab74d20104e3eabb4450b4937cf4bcdc26522057b0ff96e4dedcb93abd2d3d92",
+      "transform": "local absolute paths rewritten as project-relative paths (staging sanitize)"
+    },
+    "protocol_freeze/hard_confusable/test.jsonl": {
+      "original_sha256": "2118208c5408ac3e04868fbfcece4c09b1aff38839b89a062374df56d30e98d1",
+      "released_sha256": "a8406612255c240d697ffbe96f019e058c936e0c6d9a825b2d2d42105e8d7661",
+      "transform": "removed local project-root prefix only"
+    },
+    "protocol_freeze/hard_confusable/test_manifest.jsonl": {
+      "original_sha256": "2118208c5408ac3e04868fbfcece4c09b1aff38839b89a062374df56d30e98d1",
+      "released_sha256": "a8406612255c240d697ffbe96f019e058c936e0c6d9a825b2d2d42105e8d7661",
+      "transform": "removed local project-root prefix only"
+    },
+    "protocol_freeze/hard_confusable/train.jsonl": {
+      "original_sha256": "c87cedff3db8e2a10407d8bf872785bc974ff7a1f6355cbe6e90da71c670b6ad",
+      "released_sha256": "59a3cb17a5ab595db20b5e61e360ca553e52a61b647411e0631d851219228f64",
+      "transform": "removed local project-root prefix only"
+    },
+    "protocol_freeze/hard_confusable/train_manifest.jsonl": {
+      "original_sha256": "c87cedff3db8e2a10407d8bf872785bc974ff7a1f6355cbe6e90da71c670b6ad",
+      "released_sha256": "59a3cb17a5ab595db20b5e61e360ca553e52a61b647411e0631d851219228f64",
+      "transform": "removed local project-root prefix only"
+    },
+    "protocol_freeze/hard_confusable/val.jsonl": {
+      "original_sha256": "61b05db374b12993f9f01679d63937af09b08c64cec7831078209ceca53c1840",
+      "released_sha256": "dce31d610473ea3e03f1993b5cd4c2c112f702283505afa5c724ae8f460488e3",
+      "transform": "removed local project-root prefix only"
+    },
+    "protocol_freeze/hard_confusable/val_manifest.jsonl": {
+      "original_sha256": "61b05db374b12993f9f01679d63937af09b08c64cec7831078209ceca53c1840",
+      "released_sha256": "dce31d610473ea3e03f1993b5cd4c2c112f702283505afa5c724ae8f460488e3",
+      "transform": "removed local project-root prefix only"
+    },
+    "protocol_freeze/scale300/historical_duplicate_groups.json": {
+      "original_sha256": "652b7a5c8ff76a649d1b8a7d4e76a985a82a81b0bd4423cf696395bb54aa1be5",
+      "released_sha256": "48b5f37bda443ec26d6d881bff10342c72b911a9d3336ae3abf603de5c6201fb",
+      "transform": "local absolute paths rewritten as project-relative paths (staging sanitize)"
+    },
+    "protocol_freeze/scale300/lists/test.txt": {
+      "original_sha256": "4582ec9e477a47526c9f23be15be468aa833e98fd80f1c9083996ddd4278009d",
+      "released_sha256": "76dd1ee5d898e8e3f060cfe9ad0e702b7fedea12758710403acaeceae6015adc",
+      "transform": "local absolute paths rewritten as project-relative paths (staging sanitize)"
+    },
+    "protocol_freeze/scale300/lists/train.txt": {
+      "original_sha256": "ef56fae02aeeafa15f91363e64cac801a5652a4dea424d307859199c90653a02",
+      "released_sha256": "c60e689d86b0d55c38d91063f0c6955a02fc9b6d8d61ff94ffe9425ef5842c71",
+      "transform": "local absolute paths rewritten as project-relative paths (staging sanitize)"
+    },
+    "protocol_freeze/scale300/lists/val.txt": {
+      "original_sha256": "632bcfaf47651c1d08104bf9d2b3d98b9db28d61050d1d5832f1881ba576ecd7",
+      "released_sha256": "ca2fa08129f9dacb1b1064a1241084940c22d91957c66572648e233cab855f85",
+      "transform": "local absolute paths rewritten as project-relative paths (staging sanitize)"
+    },
+    "protocol_freeze/scale300/removed_historical_samples.json": {
+      "original_sha256": "ec77073414731bdb4a2523cb801697fc7d988af366eafe06fa779bedd2df5f51",
+      "released_sha256": "a65c09d1c7a8a15579276fa8ad9e43790bbaa9760ca48eddffc76ac87a220a0a",
+      "transform": "local absolute paths rewritten as project-relative paths (staging sanitize)"
+    },
+    "protocol_freeze/scale300/test.jsonl": {
+      "original_sha256": "ef03678713311b9bb0ea5a326432f4f20027711cb966a482aa97647e41ff0a02",
+      "released_sha256": "77edc403da8ebc02fb4e56126d6331b5b5e8d88b5ac0fa02ec412c5a4367246e",
+      "transform": "removed local project-root prefix only"
+    },
+    "protocol_freeze/scale300/test_manifest.jsonl": {
+      "original_sha256": "ef03678713311b9bb0ea5a326432f4f20027711cb966a482aa97647e41ff0a02",
+      "released_sha256": "77edc403da8ebc02fb4e56126d6331b5b5e8d88b5ac0fa02ec412c5a4367246e",
+      "transform": "removed local project-root prefix only"
+    },
+    "protocol_freeze/scale300/train.jsonl": {
+      "original_sha256": "64a822b87b4123d2062a0737b3c7a4ff83f429c78a52a15ad10484f533d5765d",
+      "released_sha256": "c280b31f63657b4c5b69795b04b82fd3e22cf466e978e430a40f2b3a82574328",
+      "transform": "removed local project-root prefix only"
+    },
+    "protocol_freeze/scale300/train_manifest.jsonl": {
+      "original_sha256": "64a822b87b4123d2062a0737b3c7a4ff83f429c78a52a15ad10484f533d5765d",
+      "released_sha256": "c280b31f63657b4c5b69795b04b82fd3e22cf466e978e430a40f2b3a82574328",
+      "transform": "removed local project-root prefix only"
+    },
+    "protocol_freeze/scale300/val.jsonl": {
+      "original_sha256": "52a3cf182d3c6b445410e68a5b9c0a1a3945f2e3779737ae6c707e07f9177c9d",
+      "released_sha256": "9f46a0aa76b239115b16f9f755378319eeae16f479e2733f33b6cd561690748b",
+      "transform": "removed local project-root prefix only"
+    },
+    "protocol_freeze/scale300/val_manifest.jsonl": {
+      "original_sha256": "52a3cf182d3c6b445410e68a5b9c0a1a3945f2e3779737ae6c707e07f9177c9d",
+      "released_sha256": "9f46a0aa76b239115b16f9f755378319eeae16f479e2733f33b6cd561690748b",
+      "transform": "removed local project-root prefix only"
+    }
+  }
+}

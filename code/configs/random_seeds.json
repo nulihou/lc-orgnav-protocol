@@ -1,0 +1,1356 @@
+{
+  "base_seed": 42,
+  "num_runs_per_scene": 5,
+  "configs": [
+    {
+      "scene_id": 0,
+      "run_id": 1,
+      "carla_seed": 143,
+      "traffic_manager_seed": 144,
+      "python_random_seed": 145,
+      "numpy_seed": 146,
+      "torch_seed": 147
+    },
+    {
+      "scene_id": 0,
+      "run_id": 2,
+      "carla_seed": 243,
+      "traffic_manager_seed": 244,
+      "python_random_seed": 245,
+      "numpy_seed": 246,
+      "torch_seed": 247
+    },
+    {
+      "scene_id": 0,
+      "run_id": 3,
+      "carla_seed": 343,
+      "traffic_manager_seed": 344,
+      "python_random_seed": 345,
+      "numpy_seed": 346,
+      "torch_seed": 347
+    },
+    {
+      "scene_id": 0,
+      "run_id": 4,
+      "carla_seed": 443,
+      "traffic_manager_seed": 444,
+      "python_random_seed": 445,
+      "numpy_seed": 446,
+      "torch_seed": 447
+    },
+    {
+      "scene_id": 0,
+      "run_id": 5,
+      "carla_seed": 543,
+      "traffic_manager_seed": 544,
+      "python_random_seed": 545,
+      "numpy_seed": 546,
+      "torch_seed": 547
+    },
+    {
+      "scene_id": 1,
+      "run_id": 1,
+      "carla_seed": 1143,
+      "traffic_manager_seed": 1144,
+      "python_random_seed": 1145,
+      "numpy_seed": 1146,
+      "torch_seed": 1147
+    },
+    {
+      "scene_id": 1,
+      "run_id": 2,
+      "carla_seed": 1243,
+      "traffic_manager_seed": 1244,
+      "python_random_seed": 1245,
+      "numpy_seed": 1246,
+      "torch_seed": 1247
+    },
+    {
+      "scene_id": 1,
+      "run_id": 3,
+      "carla_seed": 1343,
+      "traffic_manager_seed": 1344,
+      "python_random_seed": 1345,
+      "numpy_seed": 1346,
+      "torch_seed": 1347
+    },
+    {
+      "scene_id": 1,
+      "run_id": 4,
+      "carla_seed": 1443,
+      "traffic_manager_seed": 1444,
+      "python_random_seed": 1445,
+      "numpy_seed": 1446,
+      "torch_seed": 1447
+    },
+    {
+      "scene_id": 1,
+      "run_id": 5,
+      "carla_seed": 1543,
+      "traffic_manager_seed": 1544,
+      "python_random_seed": 1545,
+      "numpy_seed": 1546,
+      "torch_seed": 1547
+    },
+    {
+      "scene_id": 2,
+      "run_id": 1,
+      "carla_seed": 2143,
+      "traffic_manager_seed": 2144,
+      "python_random_seed": 2145,
+      "numpy_seed": 2146,
+      "torch_seed": 2147
+    },
+    {
+      "scene_id": 2,
+      "run_id": 2,
+      "carla_seed": 2243,
+      "traffic_manager_seed": 2244,
+      "python_random_seed": 2245,
+      "numpy_seed": 2246,
+      "torch_seed": 2247
+    },
+    {
+      "scene_id": 2,
+      "run_id": 3,
+      "carla_seed": 2343,
+      "traffic_manager_seed": 2344,
+      "python_random_seed": 2345,
+      "numpy_seed": 2346,
+      "torch_seed": 2347
+    },
+    {
+      "scene_id": 2,
+      "run_id": 4,
+      "carla_seed": 2443,
+      "traffic_manager_seed": 2444,
+      "python_random_seed": 2445,
+      "numpy_seed": 2446,
+      "torch_seed": 2447
+    },
+    {
+      "scene_id": 2,
+      "run_id": 5,
+      "carla_seed": 2543,
+      "traffic_manager_seed": 2544,
+      "python_random_seed": 2545,
+      "numpy_seed": 2546,
+      "torch_seed": 2547
+    },
+    {
+      "scene_id": 3,
+      "run_id": 1,
+      "carla_seed": 3143,
+      "traffic_manager_seed": 3144,
+      "python_random_seed": 3145,
+      "numpy_seed": 3146,
+      "torch_seed": 3147
+    },
+    {
+      "scene_id": 3,
+      "run_id": 2,
+      "carla_seed": 3243,
+      "traffic_manager_seed": 3244,
+      "python_random_seed": 3245,
+      "numpy_seed": 3246,
+      "torch_seed": 3247
+    },
+    {
+      "scene_id": 3,
+      "run_id": 3,
+      "carla_seed": 3343,
+      "traffic_manager_seed": 3344,
+      "python_random_seed": 3345,
+      "numpy_seed": 3346,
+      "torch_seed": 3347
+    },
+    {
+      "scene_id": 3,
+      "run_id": 4,
+      "carla_seed": 3443,
+      "traffic_manager_seed": 3444,
+      "python_random_seed": 3445,
+      "numpy_seed": 3446,
+      "torch_seed": 3447
+    },
+    {
+      "scene_id": 3,
+      "run_id": 5,
+      "carla_seed": 3543,
+      "traffic_manager_seed": 3544,
+      "python_random_seed": 3545,
+      "numpy_seed": 3546,
+      "torch_seed": 3547
+    },
+    {
+      "scene_id": 4,
+      "run_id": 1,
+      "carla_seed": 4143,
+      "traffic_manager_seed": 4144,
+      "python_random_seed": 4145,
+      "numpy_seed": 4146,
+      "torch_seed": 4147
+    },
+    {
+      "scene_id": 4,
+      "run_id": 2,
+      "carla_seed": 4243,
+      "traffic_manager_seed": 4244,
+      "python_random_seed": 4245,
+      "numpy_seed": 4246,
+      "torch_seed": 4247
+    },
+    {
+      "scene_id": 4,
+      "run_id": 3,
+      "carla_seed": 4343,
+      "traffic_manager_seed": 4344,
+      "python_random_seed": 4345,
+      "numpy_seed": 4346,
+      "torch_seed": 4347
+    },
+    {
+      "scene_id": 4,
+      "run_id": 4,
+      "carla_seed": 4443,
+      "traffic_manager_seed": 4444,
+      "python_random_seed": 4445,
+      "numpy_seed": 4446,
+      "torch_seed": 4447
+    },
+    {
+      "scene_id": 4,
+      "run_id": 5,
+      "carla_seed": 4543,
+      "traffic_manager_seed": 4544,
+      "python_random_seed": 4545,
+      "numpy_seed": 4546,
+      "torch_seed": 4547
+    },
+    {
+      "scene_id": 5,
+      "run_id": 1,
+      "carla_seed": 5143,
+      "traffic_manager_seed": 5144,
+      "python_random_seed": 5145,
+      "numpy_seed": 5146,
+      "torch_seed": 5147
+    },
+    {
+      "scene_id": 5,
+      "run_id": 2,
+      "carla_seed": 5243,
+      "traffic_manager_seed": 5244,
+      "python_random_seed": 5245,
+      "numpy_seed": 5246,
+      "torch_seed": 5247
+    },
+    {
+      "scene_id": 5,
+      "run_id": 3,
+      "carla_seed": 5343,
+      "traffic_manager_seed": 5344,
+      "python_random_seed": 5345,
+      "numpy_seed": 5346,
+      "torch_seed": 5347
+    },
+    {
+      "scene_id": 5,
+      "run_id": 4,
+      "carla_seed": 5443,
+      "traffic_manager_seed": 5444,
+      "python_random_seed": 5445,
+      "numpy_seed": 5446,
+      "torch_seed": 5447
+    },
+    {
+      "scene_id": 5,
+      "run_id": 5,
+      "carla_seed": 5543,
+      "traffic_manager_seed": 5544,
+      "python_random_seed": 5545,
+      "numpy_seed": 5546,
+      "torch_seed": 5547
+    },
+    {
+      "scene_id": 6,
+      "run_id": 1,
+      "carla_seed": 6143,
+      "traffic_manager_seed": 6144,
+      "python_random_seed": 6145,
+      "numpy_seed": 6146,
+      "torch_seed": 6147
+    },
+    {
+      "scene_id": 6,
+      "run_id": 2,
+      "carla_seed": 6243,
+      "traffic_manager_seed": 6244,
+      "python_random_seed": 6245,
+      "numpy_seed": 6246,
+      "torch_seed": 6247
+    },
+    {
+      "scene_id": 6,
+      "run_id": 3,
+      "carla_seed": 6343,
+      "traffic_manager_seed": 6344,
+      "python_random_seed": 6345,
+      "numpy_seed": 6346,
+      "torch_seed": 6347
+    },
+    {
+      "scene_id": 6,
+      "run_id": 4,
+      "carla_seed": 6443,
+      "traffic_manager_seed": 6444,
+      "python_random_seed": 6445,
+      "numpy_seed": 6446,
+      "torch_seed": 6447
+    },
+    {
+      "scene_id": 6,
+      "run_id": 5,
+      "carla_seed": 6543,
+      "traffic_manager_seed": 6544,
+      "python_random_seed": 6545,
+      "numpy_seed": 6546,
+      "torch_seed": 6547
+    },
+    {
+      "scene_id": 7,
+      "run_id": 1,
+      "carla_seed": 7143,
+      "traffic_manager_seed": 7144,
+      "python_random_seed": 7145,
+      "numpy_seed": 7146,
+      "torch_seed": 7147
+    },
+    {
+      "scene_id": 7,
+      "run_id": 2,
+      "carla_seed": 7243,
+      "traffic_manager_seed": 7244,
+      "python_random_seed": 7245,
+      "numpy_seed": 7246,
+      "torch_seed": 7247
+    },
+    {
+      "scene_id": 7,
+      "run_id": 3,
+      "carla_seed": 7343,
+      "traffic_manager_seed": 7344,
+      "python_random_seed": 7345,
+      "numpy_seed": 7346,
+      "torch_seed": 7347
+    },
+    {
+      "scene_id": 7,
+      "run_id": 4,
+      "carla_seed": 7443,
+      "traffic_manager_seed": 7444,
+      "python_random_seed": 7445,
+      "numpy_seed": 7446,
+      "torch_seed": 7447
+    },
+    {
+      "scene_id": 7,
+      "run_id": 5,
+      "carla_seed": 7543,
+      "traffic_manager_seed": 7544,
+      "python_random_seed": 7545,
+      "numpy_seed": 7546,
+      "torch_seed": 7547
+    },
+    {
+      "scene_id": 8,
+      "run_id": 1,
+      "carla_seed": 8143,
+      "traffic_manager_seed": 8144,
+      "python_random_seed": 8145,
+      "numpy_seed": 8146,
+      "torch_seed": 8147
+    },
+    {
+      "scene_id": 8,
+      "run_id": 2,
+      "carla_seed": 8243,
+      "traffic_manager_seed": 8244,
+      "python_random_seed": 8245,
+      "numpy_seed": 8246,
+      "torch_seed": 8247
+    },
+    {
+      "scene_id": 8,
+      "run_id": 3,
+      "carla_seed": 8343,
+      "traffic_manager_seed": 8344,
+      "python_random_seed": 8345,
+      "numpy_seed": 8346,
+      "torch_seed": 8347
+    },
+    {
+      "scene_id": 8,
+      "run_id": 4,
+      "carla_seed": 8443,
+      "traffic_manager_seed": 8444,
+      "python_random_seed": 8445,
+      "numpy_seed": 8446,
+      "torch_seed": 8447
+    },
+    {
+      "scene_id": 8,
+      "run_id": 5,
+      "carla_seed": 8543,
+      "traffic_manager_seed": 8544,
+      "python_random_seed": 8545,
+      "numpy_seed": 8546,
+      "torch_seed": 8547
+    },
+    {
+      "scene_id": 9,
+      "run_id": 1,
+      "carla_seed": 9143,
+      "traffic_manager_seed": 9144,
+      "python_random_seed": 9145,
+      "numpy_seed": 9146,
+      "torch_seed": 9147
+    },
+    {
+      "scene_id": 9,
+      "run_id": 2,
+      "carla_seed": 9243,
+      "traffic_manager_seed": 9244,
+      "python_random_seed": 9245,
+      "numpy_seed": 9246,
+      "torch_seed": 9247
+    },
+    {
+      "scene_id": 9,
+      "run_id": 3,
+      "carla_seed": 9343,
+      "traffic_manager_seed": 9344,
+      "python_random_seed": 9345,
+      "numpy_seed": 9346,
+      "torch_seed": 9347
+    },
+    {
+      "scene_id": 9,
+      "run_id": 4,
+      "carla_seed": 9443,
+      "traffic_manager_seed": 9444,
+      "python_random_seed": 9445,
+      "numpy_seed": 9446,
+      "torch_seed": 9447
+    },
+    {
+      "scene_id": 9,
+      "run_id": 5,
+      "carla_seed": 9543,
+      "traffic_manager_seed": 9544,
+      "python_random_seed": 9545,
+      "numpy_seed": 9546,
+      "torch_seed": 9547
+    },
+    {
+      "scene_id": 10,
+      "run_id": 1,
+      "carla_seed": 10143,
+      "traffic_manager_seed": 10144,
+      "python_random_seed": 10145,
+      "numpy_seed": 10146,
+      "torch_seed": 10147
+    },
+    {
+      "scene_id": 10,
+      "run_id": 2,
+      "carla_seed": 10243,
+      "traffic_manager_seed": 10244,
+      "python_random_seed": 10245,
+      "numpy_seed": 10246,
+      "torch_seed": 10247
+    },
+    {
+      "scene_id": 10,
+      "run_id": 3,
+      "carla_seed": 10343,
+      "traffic_manager_seed": 10344,
+      "python_random_seed": 10345,
+      "numpy_seed": 10346,
+      "torch_seed": 10347
+    },
+    {
+      "scene_id": 10,
+      "run_id": 4,
+      "carla_seed": 10443,
+      "traffic_manager_seed": 10444,
+      "python_random_seed": 10445,
+      "numpy_seed": 10446,
+      "torch_seed": 10447
+    },
+    {
+      "scene_id": 10,
+      "run_id": 5,
+      "carla_seed": 10543,
+      "traffic_manager_seed": 10544,
+      "python_random_seed": 10545,
+      "numpy_seed": 10546,
+      "torch_seed": 10547
+    },
+    {
+      "scene_id": 11,
+      "run_id": 1,
+      "carla_seed": 11143,
+      "traffic_manager_seed": 11144,
+      "python_random_seed": 11145,
+      "numpy_seed": 11146,
+      "torch_seed": 11147
+    },
+    {
+      "scene_id": 11,
+      "run_id": 2,
+      "carla_seed": 11243,
+      "traffic_manager_seed": 11244,
+      "python_random_seed": 11245,
+      "numpy_seed": 11246,
+      "torch_seed": 11247
+    },
+    {
+      "scene_id": 11,
+      "run_id": 3,
+      "carla_seed": 11343,
+      "traffic_manager_seed": 11344,
+      "python_random_seed": 11345,
+      "numpy_seed": 11346,
+      "torch_seed": 11347
+    },
+    {
+      "scene_id": 11,
+      "run_id": 4,
+      "carla_seed": 11443,
+      "traffic_manager_seed": 11444,
+      "python_random_seed": 11445,
+      "numpy_seed": 11446,
+      "torch_seed": 11447
+    },
+    {
+      "scene_id": 11,
+      "run_id": 5,
+      "carla_seed": 11543,
+      "traffic_manager_seed": 11544,
+      "python_random_seed": 11545,
+      "numpy_seed": 11546,
+      "torch_seed": 11547
+    },
+    {
+      "scene_id": 12,
+      "run_id": 1,
+      "carla_seed": 12143,
+      "traffic_manager_seed": 12144,
+      "python_random_seed": 12145,
+      "numpy_seed": 12146,
+      "torch_seed": 12147
+    },
+    {
+      "scene_id": 12,
+      "run_id": 2,
+      "carla_seed": 12243,
+      "traffic_manager_seed": 12244,
+      "python_random_seed": 12245,
+      "numpy_seed": 12246,
+      "torch_seed": 12247
+    },
+    {
+      "scene_id": 12,
+      "run_id": 3,
+      "carla_seed": 12343,
+      "traffic_manager_seed": 12344,
+      "python_random_seed": 12345,
+      "numpy_seed": 12346,
+      "torch_seed": 12347
+    },
+    {
+      "scene_id": 12,
+      "run_id": 4,
+      "carla_seed": 12443,
+      "traffic_manager_seed": 12444,
+      "python_random_seed": 12445,
+      "numpy_seed": 12446,
+      "torch_seed": 12447
+    },
+    {
+      "scene_id": 12,
+      "run_id": 5,
+      "carla_seed": 12543,
+      "traffic_manager_seed": 12544,
+      "python_random_seed": 12545,
+      "numpy_seed": 12546,
+      "torch_seed": 12547
+    },
+    {
+      "scene_id": 13,
+      "run_id": 1,
+      "carla_seed": 13143,
+      "traffic_manager_seed": 13144,
+      "python_random_seed": 13145,
+      "numpy_seed": 13146,
+      "torch_seed": 13147
+    },
+    {
+      "scene_id": 13,
+      "run_id": 2,
+      "carla_seed": 13243,
+      "traffic_manager_seed": 13244,
+      "python_random_seed": 13245,
+      "numpy_seed": 13246,
+      "torch_seed": 13247
+    },
+    {
+      "scene_id": 13,
+      "run_id": 3,
+      "carla_seed": 13343,
+      "traffic_manager_seed": 13344,
+      "python_random_seed": 13345,
+      "numpy_seed": 13346,
+      "torch_seed": 13347
+    },
+    {
+      "scene_id": 13,
+      "run_id": 4,
+      "carla_seed": 13443,
+      "traffic_manager_seed": 13444,
+      "python_random_seed": 13445,
+      "numpy_seed": 13446,
+      "torch_seed": 13447
+    },
+    {
+      "scene_id": 13,
+      "run_id": 5,
+      "carla_seed": 13543,
+      "traffic_manager_seed": 13544,
+      "python_random_seed": 13545,
+      "numpy_seed": 13546,
+      "torch_seed": 13547
+    },
+    {
+      "scene_id": 14,
+      "run_id": 1,
+      "carla_seed": 14143,
+      "traffic_manager_seed": 14144,
+      "python_random_seed": 14145,
+      "numpy_seed": 14146,
+      "torch_seed": 14147
+    },
+    {
+      "scene_id": 14,
+      "run_id": 2,
+      "carla_seed": 14243,
+      "traffic_manager_seed": 14244,
+      "python_random_seed": 14245,
+      "numpy_seed": 14246,
+      "torch_seed": 14247
+    },
+    {
+      "scene_id": 14,
+      "run_id": 3,
+      "carla_seed": 14343,
+      "traffic_manager_seed": 14344,
+      "python_random_seed": 14345,
+      "numpy_seed": 14346,
+      "torch_seed": 14347
+    },
+    {
+      "scene_id": 14,
+      "run_id": 4,
+      "carla_seed": 14443,
+      "traffic_manager_seed": 14444,
+      "python_random_seed": 14445,
+      "numpy_seed": 14446,
+      "torch_seed": 14447
+    },
+    {
+      "scene_id": 14,
+      "run_id": 5,
+      "carla_seed": 14543,
+      "traffic_manager_seed": 14544,
+      "python_random_seed": 14545,
+      "numpy_seed": 14546,
+      "torch_seed": 14547
+    },
+    {
+      "scene_id": 15,
+      "run_id": 1,
+      "carla_seed": 15143,
+      "traffic_manager_seed": 15144,
+      "python_random_seed": 15145,
+      "numpy_seed": 15146,
+      "torch_seed": 15147
+    },
+    {
+      "scene_id": 15,
+      "run_id": 2,
+      "carla_seed": 15243,
+      "traffic_manager_seed": 15244,
+      "python_random_seed": 15245,
+      "numpy_seed": 15246,
+      "torch_seed": 15247
+    },
+    {
+      "scene_id": 15,
+      "run_id": 3,
+      "carla_seed": 15343,
+      "traffic_manager_seed": 15344,
+      "python_random_seed": 15345,
+      "numpy_seed": 15346,
+      "torch_seed": 15347
+    },
+    {
+      "scene_id": 15,
+      "run_id": 4,
+      "carla_seed": 15443,
+      "traffic_manager_seed": 15444,
+      "python_random_seed": 15445,
+      "numpy_seed": 15446,
+      "torch_seed": 15447
+    },
+    {
+      "scene_id": 15,
+      "run_id": 5,
+      "carla_seed": 15543,
+      "traffic_manager_seed": 15544,
+      "python_random_seed": 15545,
+      "numpy_seed": 15546,
+      "torch_seed": 15547
+    },
+    {
+      "scene_id": 16,
+      "run_id": 1,
+      "carla_seed": 16143,
+      "traffic_manager_seed": 16144,
+      "python_random_seed": 16145,
+      "numpy_seed": 16146,
+      "torch_seed": 16147
+    },
+    {
+      "scene_id": 16,
+      "run_id": 2,
+      "carla_seed": 16243,
+      "traffic_manager_seed": 16244,
+      "python_random_seed": 16245,
+      "numpy_seed": 16246,
+      "torch_seed": 16247
+    },
+    {
+      "scene_id": 16,
+      "run_id": 3,
+      "carla_seed": 16343,
+      "traffic_manager_seed": 16344,
+      "python_random_seed": 16345,
+      "numpy_seed": 16346,
+      "torch_seed": 16347
+    },
+    {
+      "scene_id": 16,
+      "run_id": 4,
+      "carla_seed": 16443,
+      "traffic_manager_seed": 16444,
+      "python_random_seed": 16445,
+      "numpy_seed": 16446,
+      "torch_seed": 16447
+    },
+    {
+      "scene_id": 16,
+      "run_id": 5,
+      "carla_seed": 16543,
+      "traffic_manager_seed": 16544,
+      "python_random_seed": 16545,
+      "numpy_seed": 16546,
+      "torch_seed": 16547
+    },
+    {
+      "scene_id": 17,
+      "run_id": 1,
+      "carla_seed": 17143,
+      "traffic_manager_seed": 17144,
+      "python_random_seed": 17145,
+      "numpy_seed": 17146,
+      "torch_seed": 17147
+    },
+    {
+      "scene_id": 17,
+      "run_id": 2,
+      "carla_seed": 17243,
+      "traffic_manager_seed": 17244,
+      "python_random_seed": 17245,
+      "numpy_seed": 17246,
+      "torch_seed": 17247
+    },
+    {
+      "scene_id": 17,
+      "run_id": 3,
+      "carla_seed": 17343,
+      "traffic_manager_seed": 17344,
+      "python_random_seed": 17345,
+      "numpy_seed": 17346,
+      "torch_seed": 17347
+    },
+    {
+      "scene_id": 17,
+      "run_id": 4,
+      "carla_seed": 17443,
+      "traffic_manager_seed": 17444,
+      "python_random_seed": 17445,
+      "numpy_seed": 17446,
+      "torch_seed": 17447
+    },
+    {
+      "scene_id": 17,
+      "run_id": 5,
+      "carla_seed": 17543,
+      "traffic_manager_seed": 17544,
+      "python_random_seed": 17545,
+      "numpy_seed": 17546,
+      "torch_seed": 17547
+    },
+    {
+      "scene_id": 18,
+      "run_id": 1,
+      "carla_seed": 18143,
+      "traffic_manager_seed": 18144,
+      "python_random_seed": 18145,
+      "numpy_seed": 18146,
+      "torch_seed": 18147
+    },
+    {
+      "scene_id": 18,
+      "run_id": 2,
+      "carla_seed": 18243,
+      "traffic_manager_seed": 18244,
+      "python_random_seed": 18245,
+      "numpy_seed": 18246,
+      "torch_seed": 18247
+    },
+    {
+      "scene_id": 18,
+      "run_id": 3,
+      "carla_seed": 18343,
+      "traffic_manager_seed": 18344,
+      "python_random_seed": 18345,
+      "numpy_seed": 18346,
+      "torch_seed": 18347
+    },
+    {
+      "scene_id": 18,
+      "run_id": 4,
+      "carla_seed": 18443,
+      "traffic_manager_seed": 18444,
+      "python_random_seed": 18445,
+      "numpy_seed": 18446,
+      "torch_seed": 18447
+    },
+    {
+      "scene_id": 18,
+      "run_id": 5,
+      "carla_seed": 18543,
+      "traffic_manager_seed": 18544,
+      "python_random_seed": 18545,
+      "numpy_seed": 18546,
+      "torch_seed": 18547
+    },
+    {
+      "scene_id": 19,
+      "run_id": 1,
+      "carla_seed": 19143,
+      "traffic_manager_seed": 19144,
+      "python_random_seed": 19145,
+      "numpy_seed": 19146,
+      "torch_seed": 19147
+    },
+    {
+      "scene_id": 19,
+      "run_id": 2,
+      "carla_seed": 19243,
+      "traffic_manager_seed": 19244,
+      "python_random_seed": 19245,
+      "numpy_seed": 19246,
+      "torch_seed": 19247
+    },
+    {
+      "scene_id": 19,
+      "run_id": 3,
+      "carla_seed": 19343,
+      "traffic_manager_seed": 19344,
+      "python_random_seed": 19345,
+      "numpy_seed": 19346,
+      "torch_seed": 19347
+    },
+    {
+      "scene_id": 19,
+      "run_id": 4,
+      "carla_seed": 19443,
+      "traffic_manager_seed": 19444,
+      "python_random_seed": 19445,
+      "numpy_seed": 19446,
+      "torch_seed": 19447
+    },
+    {
+      "scene_id": 19,
+      "run_id": 5,
+      "carla_seed": 19543,
+      "traffic_manager_seed": 19544,
+      "python_random_seed": 19545,
+      "numpy_seed": 19546,
+      "torch_seed": 19547
+    },
+    {
+      "scene_id": 20,
+      "run_id": 1,
+      "carla_seed": 20143,
+      "traffic_manager_seed": 20144,
+      "python_random_seed": 20145,
+      "numpy_seed": 20146,
+      "torch_seed": 20147
+    },
+    {
+      "scene_id": 20,
+      "run_id": 2,
+      "carla_seed": 20243,
+      "traffic_manager_seed": 20244,
+      "python_random_seed": 20245,
+      "numpy_seed": 20246,
+      "torch_seed": 20247
+    },
+    {
+      "scene_id": 20,
+      "run_id": 3,
+      "carla_seed": 20343,
+      "traffic_manager_seed": 20344,
+      "python_random_seed": 20345,
+      "numpy_seed": 20346,
+      "torch_seed": 20347
+    },
+    {
+      "scene_id": 20,
+      "run_id": 4,
+      "carla_seed": 20443,
+      "traffic_manager_seed": 20444,
+      "python_random_seed": 20445,
+      "numpy_seed": 20446,
+      "torch_seed": 20447
+    },
+    {
+      "scene_id": 20,
+      "run_id": 5,
+      "carla_seed": 20543,
+      "traffic_manager_seed": 20544,
+      "python_random_seed": 20545,
+      "numpy_seed": 20546,
+      "torch_seed": 20547
+    },
+    {
+      "scene_id": 21,
+      "run_id": 1,
+      "carla_seed": 21143,
+      "traffic_manager_seed": 21144,
+      "python_random_seed": 21145,
+      "numpy_seed": 21146,
+      "torch_seed": 21147
+    },
+    {
+      "scene_id": 21,
+      "run_id": 2,
+      "carla_seed": 21243,
+      "traffic_manager_seed": 21244,
+      "python_random_seed": 21245,
+      "numpy_seed": 21246,
+      "torch_seed": 21247
+    },
+    {
+      "scene_id": 21,
+      "run_id": 3,
+      "carla_seed": 21343,
+      "traffic_manager_seed": 21344,
+      "python_random_seed": 21345,
+      "numpy_seed": 21346,
+      "torch_seed": 21347
+    },
+    {
+      "scene_id": 21,
+      "run_id": 4,
+      "carla_seed": 21443,
+      "traffic_manager_seed": 21444,
+      "python_random_seed": 21445,
+      "numpy_seed": 21446,
+      "torch_seed": 21447
+    },
+    {
+      "scene_id": 21,
+      "run_id": 5,
+      "carla_seed": 21543,
+      "traffic_manager_seed": 21544,
+      "python_random_seed": 21545,
+      "numpy_seed": 21546,
+      "torch_seed": 21547
+    },
+    {
+      "scene_id": 22,
+      "run_id": 1,
+      "carla_seed": 22143,
+      "traffic_manager_seed": 22144,
+      "python_random_seed": 22145,
+      "numpy_seed": 22146,
+      "torch_seed": 22147
+    },
+    {
+      "scene_id": 22,
+      "run_id": 2,
+      "carla_seed": 22243,
+      "traffic_manager_seed": 22244,
+      "python_random_seed": 22245,
+      "numpy_seed": 22246,
+      "torch_seed": 22247
+    },
+    {
+      "scene_id": 22,
+      "run_id": 3,
+      "carla_seed": 22343,
+      "traffic_manager_seed": 22344,
+      "python_random_seed": 22345,
+      "numpy_seed": 22346,
+      "torch_seed": 22347
+    },
+    {
+      "scene_id": 22,
+      "run_id": 4,
+      "carla_seed": 22443,
+      "traffic_manager_seed": 22444,
+      "python_random_seed": 22445,
+      "numpy_seed": 22446,
+      "torch_seed": 22447
+    },
+    {
+      "scene_id": 22,
+      "run_id": 5,
+      "carla_seed": 22543,
+      "traffic_manager_seed": 22544,
+      "python_random_seed": 22545,
+      "numpy_seed": 22546,
+      "torch_seed": 22547
+    },
+    {
+      "scene_id": 23,
+      "run_id": 1,
+      "carla_seed": 23143,
+      "traffic_manager_seed": 23144,
+      "python_random_seed": 23145,
+      "numpy_seed": 23146,
+      "torch_seed": 23147
+    },
+    {
+      "scene_id": 23,
+      "run_id": 2,
+      "carla_seed": 23243,
+      "traffic_manager_seed": 23244,
+      "python_random_seed": 23245,
+      "numpy_seed": 23246,
+      "torch_seed": 23247
+    },
+    {
+      "scene_id": 23,
+      "run_id": 3,
+      "carla_seed": 23343,
+      "traffic_manager_seed": 23344,
+      "python_random_seed": 23345,
+      "numpy_seed": 23346,
+      "torch_seed": 23347
+    },
+    {
+      "scene_id": 23,
+      "run_id": 4,
+      "carla_seed": 23443,
+      "traffic_manager_seed": 23444,
+      "python_random_seed": 23445,
+      "numpy_seed": 23446,
+      "torch_seed": 23447
+    },
+    {
+      "scene_id": 23,
+      "run_id": 5,
+      "carla_seed": 23543,
+      "traffic_manager_seed": 23544,
+      "python_random_seed": 23545,
+      "numpy_seed": 23546,
+      "torch_seed": 23547
+    },
+    {
+      "scene_id": 24,
+      "run_id": 1,
+      "carla_seed": 24143,
+      "traffic_manager_seed": 24144,
+      "python_random_seed": 24145,
+      "numpy_seed": 24146,
+      "torch_seed": 24147
+    },
+    {
+      "scene_id": 24,
+      "run_id": 2,
+      "carla_seed": 24243,
+      "traffic_manager_seed": 24244,
+      "python_random_seed": 24245,
+      "numpy_seed": 24246,
+      "torch_seed": 24247
+    },
+    {
+      "scene_id": 24,
+      "run_id": 3,
+      "carla_seed": 24343,
+      "traffic_manager_seed": 24344,
+      "python_random_seed": 24345,
+      "numpy_seed": 24346,
+      "torch_seed": 24347
+    },
+    {
+      "scene_id": 24,
+      "run_id": 4,
+      "carla_seed": 24443,
+      "traffic_manager_seed": 24444,
+      "python_random_seed": 24445,
+      "numpy_seed": 24446,
+      "torch_seed": 24447
+    },
+    {
+      "scene_id": 24,
+      "run_id": 5,
+      "carla_seed": 24543,
+      "traffic_manager_seed": 24544,
+      "python_random_seed": 24545,
+      "numpy_seed": 24546,
+      "torch_seed": 24547
+    },
+    {
+      "scene_id": 25,
+      "run_id": 1,
+      "carla_seed": 25143,
+      "traffic_manager_seed": 25144,
+      "python_random_seed": 25145,
+      "numpy_seed": 25146,
+      "torch_seed": 25147
+    },
+    {
+      "scene_id": 25,
+      "run_id": 2,
+      "carla_seed": 25243,
+      "traffic_manager_seed": 25244,
+      "python_random_seed": 25245,
+      "numpy_seed": 25246,
+      "torch_seed": 25247
+    },
+    {
+      "scene_id": 25,
+      "run_id": 3,
+      "carla_seed": 25343,
+      "traffic_manager_seed": 25344,
+      "python_random_seed": 25345,
+      "numpy_seed": 25346,
+      "torch_seed": 25347
+    },
+    {
+      "scene_id": 25,
+      "run_id": 4,
+      "carla_seed": 25443,
+      "traffic_manager_seed": 25444,
+      "python_random_seed": 25445,
+      "numpy_seed": 25446,
+      "torch_seed": 25447
+    },
+    {
+      "scene_id": 25,
+      "run_id": 5,
+      "carla_seed": 25543,
+      "traffic_manager_seed": 25544,
+      "python_random_seed": 25545,
+      "numpy_seed": 25546,
+      "torch_seed": 25547
+    },
+    {
+      "scene_id": 26,
+      "run_id": 1,
+      "carla_seed": 26143,
+      "traffic_manager_seed": 26144,
+      "python_random_seed": 26145,
+      "numpy_seed": 26146,
+      "torch_seed": 26147
+    },
+    {
+      "scene_id": 26,
+      "run_id": 2,
+      "carla_seed": 26243,
+      "traffic_manager_seed": 26244,
+      "python_random_seed": 26245,
+      "numpy_seed": 26246,
+      "torch_seed": 26247
+    },
+    {
+      "scene_id": 26,
+      "run_id": 3,
+      "carla_seed": 26343,
+      "traffic_manager_seed": 26344,
+      "python_random_seed": 26345,
+      "numpy_seed": 26346,
+      "torch_seed": 26347
+    },
+    {
+      "scene_id": 26,
+      "run_id": 4,
+      "carla_seed": 26443,
+      "traffic_manager_seed": 26444,
+      "python_random_seed": 26445,
+      "numpy_seed": 26446,
+      "torch_seed": 26447
+    },
+    {
+      "scene_id": 26,
+      "run_id": 5,
+      "carla_seed": 26543,
+      "traffic_manager_seed": 26544,
+      "python_random_seed": 26545,
+      "numpy_seed": 26546,
+      "torch_seed": 26547
+    },
+    {
+      "scene_id": 27,
+      "run_id": 1,
+      "carla_seed": 27143,
+      "traffic_manager_seed": 27144,
+      "python_random_seed": 27145,
+      "numpy_seed": 27146,
+      "torch_seed": 27147
+    },
+    {
+      "scene_id": 27,
+      "run_id": 2,
+      "carla_seed": 27243,
+      "traffic_manager_seed": 27244,
+      "python_random_seed": 27245,
+      "numpy_seed": 27246,
+      "torch_seed": 27247
+    },
+    {
+      "scene_id": 27,
+      "run_id": 3,
+      "carla_seed": 27343,
+      "traffic_manager_seed": 27344,
+      "python_random_seed": 27345,
+      "numpy_seed": 27346,
+      "torch_seed": 27347
+    },
+    {
+      "scene_id": 27,
+      "run_id": 4,
+      "carla_seed": 27443,
+      "traffic_manager_seed": 27444,
+      "python_random_seed": 27445,
+      "numpy_seed": 27446,
+      "torch_seed": 27447
+    },
+    {
+      "scene_id": 27,
+      "run_id": 5,
+      "carla_seed": 27543,
+      "traffic_manager_seed": 27544,
+      "python_random_seed": 27545,
+      "numpy_seed": 27546,
+      "torch_seed": 27547
+    },
+    {
+      "scene_id": 28,
+      "run_id": 1,
+      "carla_seed": 28143,
+      "traffic_manager_seed": 28144,
+      "python_random_seed": 28145,
+      "numpy_seed": 28146,
+      "torch_seed": 28147
+    },
+    {
+      "scene_id": 28,
+      "run_id": 2,
+      "carla_seed": 28243,
+      "traffic_manager_seed": 28244,
+      "python_random_seed": 28245,
+      "numpy_seed": 28246,
+      "torch_seed": 28247
+    },
+    {
+      "scene_id": 28,
+      "run_id": 3,
+      "carla_seed": 28343,
+      "traffic_manager_seed": 28344,
+      "python_random_seed": 28345,
+      "numpy_seed": 28346,
+      "torch_seed": 28347
+    },
+    {
+      "scene_id": 28,
+      "run_id": 4,
+      "carla_seed": 28443,
+      "traffic_manager_seed": 28444,
+      "python_random_seed": 28445,
+      "numpy_seed": 28446,
+      "torch_seed": 28447
+    },
+    {
+      "scene_id": 28,
+      "run_id": 5,
+      "carla_seed": 28543,
+      "traffic_manager_seed": 28544,
+      "python_random_seed": 28545,
+      "numpy_seed": 28546,
+      "torch_seed": 28547
+    },
+    {
+      "scene_id": 29,
+      "run_id": 1,
+      "carla_seed": 29143,
+      "traffic_manager_seed": 29144,
+      "python_random_seed": 29145,
+      "numpy_seed": 29146,
+      "torch_seed": 29147
+    },
+    {
+      "scene_id": 29,
+      "run_id": 2,
+      "carla_seed": 29243,
+      "traffic_manager_seed": 29244,
+      "python_random_seed": 29245,
+      "numpy_seed": 29246,
+      "torch_seed": 29247
+    },
+    {
+      "scene_id": 29,
+      "run_id": 3,
+      "carla_seed": 29343,
+      "traffic_manager_seed": 29344,
+      "python_random_seed": 29345,
+      "numpy_seed": 29346,
+      "torch_seed": 29347
+    },
+    {
+      "scene_id": 29,
+      "run_id": 4,
+      "carla_seed": 29443,
+      "traffic_manager_seed": 29444,
+      "python_random_seed": 29445,
+      "numpy_seed": 29446,
+      "torch_seed": 29447
+    },
+    {
+      "scene_id": 29,
+      "run_id": 5,
+      "carla_seed": 29543,
+      "traffic_manager_seed": 29544,
+      "python_random_seed": 29545,
+      "numpy_seed": 29546,
+      "torch_seed": 29547
+    }
+  ]
+}

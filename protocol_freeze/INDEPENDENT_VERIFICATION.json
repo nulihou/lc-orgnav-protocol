@@ -1,0 +1,32 @@
+{
+  "scale300": {
+    "checks_passed": true,
+    "artifacts_hashed": 13,
+    "original_scenario_jsons_hashed": 3,
+    "original_trainable_sources_hashed": 4100,
+    "original_protocol_sources_hashed": 4100,
+    "loaded_retained_npz_samples": 4061,
+    "frozen_counts": {
+      "train": 2965,
+      "val": 796,
+      "test": 300
+    },
+    "test_labels_and_order_unchanged": true,
+    "cross_graph_base_group_overlaps": 0
+  },
+  "hard_confusable": {
+    "checks_passed": true,
+    "artifacts_hashed": 13,
+    "original_scenario_jsons_hashed": 3,
+    "original_trainable_sources_hashed": 4100,
+    "original_protocol_sources_hashed": 4100,
+    "loaded_retained_npz_samples": 4030,
+    "frozen_counts": {
+      "train": 2932,
+      "val": 798,
+      "test": 300
+    },
+    "test_labels_and_order_unchanged": true,
+    "cross_graph_base_group_overlaps": 0
+  }
+}

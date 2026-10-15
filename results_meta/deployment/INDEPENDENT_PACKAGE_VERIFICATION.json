@@ -1,0 +1,18 @@
+{
+  "scale300": {
+    "methods": 6,
+    "static_case_records": 120600,
+    "source_and_checkpoint_and_output_hashes_verified": true,
+    "structural_rejections_verified": true,
+    "identity_loss_no_substitution_verified": true,
+    "rerun_existing_formal_cases": false
+  },
+  "hard_confusable": {
+    "methods": 6,
+    "static_case_records": 120600,
+    "source_and_checkpoint_and_output_hashes_verified": true,
+    "structural_rejections_verified": true,
+    "identity_loss_no_substitution_verified": true,
+    "rerun_existing_formal_cases": false
+  }
+}

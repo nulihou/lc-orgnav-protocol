@@ -10,3 +10,4 @@ tensorboard
 
 # Optional, only needed for online closed-loop CARLA runs:
 # carla==0.9.14
+scikit-learn

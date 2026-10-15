@@ -1,0 +1,87 @@
+{
+  "source": "results_meta/offline/SUMMARY.md (Three-seed descriptive summaries + seed rows)",
+  "track": "hard_confusable",
+  "seeds": [
+    7,
+    21,
+    42
+  ],
+  "metric": "ProtoAcc@1 percent",
+  "paper_table": "Matched selector results (main text; r3_generated_results / Table of matched selectors)",
+  "rows": [
+    {
+      "model": "graph_relation_gate",
+      "paper_name": "Graph+Relation-Gate",
+      "seed_correct_over_300": [
+        291,
+        288,
+        290
+      ],
+      "seed_pct": [
+        97.0,
+        96.0,
+        96.67
+      ],
+      "mean_pct": 96.56,
+      "sd_pp": 0.51
+    },
+    {
+      "model": "matched_geometry_mlp",
+      "paper_name": "Matched geometry MLP",
+      "seed_correct_over_300": [
+        282,
+        283,
+        290
+      ],
+      "seed_pct": [
+        94.0,
+        94.33,
+        96.67
+      ],
+      "mean_pct": 95.0,
+      "sd_pp": 1.45
+    },
+    {
+      "model": "query_geometry_attention",
+      "paper_name": "Query-conditioned geometric attention",
+      "seed_correct_over_300": [
+        284,
+        288,
+        289
+      ],
+      "seed_pct": [
+        94.67,
+        96.0,
+        96.33
+      ],
+      "mean_pct": 95.67,
+      "sd_pp": 0.88
+    },
+    {
+      "model": "drivetransformer_task_adapted",
+      "paper_name": "DriveTransformer task-block adapted",
+      "seed_correct_over_300": [
+        286,
+        284,
+        288
+      ],
+      "seed_pct": [
+        95.33,
+        94.67,
+        96.0
+      ],
+      "mean_pct": 95.33,
+      "sd_pp": 0.67
+    }
+  ],
+  "range_mean_pct": [
+    95.0,
+    96.56
+  ],
+  "holm_note": "Three graph-vs-comparator Hard contrasts: all Holm p = 1 in SUMMARY seed-averaged table; ten-seed TOST detail in experiments/P3/p3_results.json",
+  "hash_pointers": [
+    "protocol_freeze/*/SHA256SUMS.json",
+    "experiments/P3/PREDICTION_HASHES.json",
+    "results_meta/deployment/DEPLOYMENT_SHA256.json"
+  ]
+}

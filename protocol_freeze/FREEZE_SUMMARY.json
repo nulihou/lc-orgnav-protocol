@@ -1,0 +1,40 @@
+[
+  {
+    "track": "scale300",
+    "frozen_counts": {
+      "train": 2965,
+      "val": 796,
+      "test": 300
+    },
+    "frozen_groups": {
+      "train": 2915,
+      "val": 793,
+      "test": 300
+    },
+    "removed": {
+      "train": 35,
+      "val": 4,
+      "test": 0
+    },
+    "freeze_manifest_sha256": "d3e534d499a582a1a986705408b74ea33b21b21999ba713fc2572e41f198f9c1"
+  },
+  {
+    "track": "hard_confusable",
+    "frozen_counts": {
+      "train": 2932,
+      "val": 798,
+      "test": 300
+    },
+    "frozen_groups": {
+      "train": 2838,
+      "val": 792,
+      "test": 299
+    },
+    "removed": {
+      "train": 68,
+      "val": 2,
+      "test": 0
+    },
+    "freeze_manifest_sha256": "e8c073a855e1e81ccb90eca99cf06cf9134436999dd0d97900617056151738e1"
+  }
+]

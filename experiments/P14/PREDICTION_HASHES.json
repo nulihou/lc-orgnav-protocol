@@ -1,0 +1,12 @@
+{
+ "preds_p14_nus.jsonl": "020ffc49af75f839bba0c3028ca02263f7dcaac7e65b504baef851d8954f0a65",
+ "preds_p14_t10_hard_confusable_test.jsonl": "e93c7cd8fa05c23881bd30b4b8270ebf0f26b815cae78e5116cdfe2e363c7024",
+ "preds_p14_t10_hard_confusable_train.jsonl": "d33e387fd6d8c5f420abd819639952ba0d04d6a58c148aefa7b19587dc337ceb",
+ "preds_p14_t10_hard_confusable_val.jsonl": "c00eafa1e64d26d14b7799b77879c1c233a902243229c636484b6bfc1b814eba",
+ "preds_p14_t10_hard_rot.jsonl": "e388307ae770ff3252189a8ac974e60859f7dbea0a96216a74a972f7088a2778",
+ "preds_p14_t10_scale300_test.jsonl": "f63399f6ce7243affb75f29cfeec480d312c182ac61175429e977af476695d9b",
+ "preds_p14_t10_scale300_train.jsonl": "a189c7af86d127036b8199cef4d238b4be66727755e8ebb8315b897f725a1b94",
+ "preds_p14_t10_scale300_val.jsonl": "0614552e277ccd797c7975923a838039e54a3118acab537967a3e0884e2b3fd2",
+ "preds_p14_t2c_kw.jsonl": "e81dcb9955a026473fa53e08086c75d121a97cb6ba594c5efdc00647022dc974",
+ "preds_p14_town05.jsonl": "d8e53154b7e65c48dea1d61a5e0ce7dcfcb5591440ce3f90eeda26e656bedc81"
+}

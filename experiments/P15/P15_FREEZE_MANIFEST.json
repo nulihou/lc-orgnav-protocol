@@ -1,0 +1,22 @@
+﻿{
+    "status":  "FROZEN_BEFORE_TRAINING",
+    "frozen_at":  "2026-10-14T12:02:15.1561315+08:00",
+    "note":  "Only CPU smoke runs on TRAIN data preceded this freeze (dev/, smoke/). P14 file hashes match P14_FREEZE_MANIFEST where shared.",
+    "smoke_results_sha256":  "199941713fed4b9bbdb812f9912d34524eb7144f208c1ecb3776fdf69e52fa07",
+    "files":  {
+                  "PROTOCOL.md":  "ee68b1a90328f0950f34152580064fb9083d041cb4757b6aa41cc66d2d97172c",
+                  "p15_common.py":  "d520c73aeb9ac7fa4a2fdd64c79795ebb4f938f0e97479f7bd9d0e429c05336b",
+                  "p15_train.py":  "05e399ae1ce838765704ab5a9aeb0556c6d6f9bc45ffd560ecc399e8de747e43",
+                  "p15_predict.py":  "7fcb465e2a01457db3abe429407162473aa65fc383a76b974358e2f279de0671",
+                  "p15_score.py":  "ee20eb6ff4042f7bdb236c7d556bd16a670c435f2b554929c041b9885d541265",
+                  "run_p15.ps1":  "785e0ef53b56de640463ef06386a35a767a40c1818dc4913d4b646dc980bbb1f",
+                  "p15_smoke.py":  "9bc993e78656789011a47c4f01d73c687e60282087703f42171b57c900df94a2",
+                  "P14_remedies\\p14_common.py":  "03c23ca9947262a7f3dc5be4e81c715b2af02afc69bbb4f583a376cb7ad91936",
+                  "code/r3_deployment\\transforms.py":  "88884b8181d64b14522ccbf5dcd5ec09ed23bd1022e18db5dee113d731380e54",
+                  "code/r3_selectors\\models.py":  "88f636bb985a50ec87d05f1732a70bb3171dc509831d94b27c18ec8b3a4899b5",
+                  "code/r3_selectors\\pipeline.py":  "26fa8b55684f8bfa28671ce0dbb274e63fc43548d102aabee7d927dfca847b58",
+                  "code/lc_org_nav\\model.py":  "39222e184019204e12b242ec2f6ab4de48993193f4017e7fb5e223e8c00d6d74",
+                  "P13_talk2car_selectors\\p13_common.py":  "23a0fd83f9e3004ce5135b588a2439ebdbc1e7d49c5226645ea666725259650b",
+                  "P12e_talk2car\\p12e_parse_kw.py":  "554184634e75c70083670e96fb271443d0f11a23b4cdd0da9f7ea4a6923aac37"
+              }
+}

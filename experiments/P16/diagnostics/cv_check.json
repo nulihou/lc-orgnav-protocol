@@ -1,0 +1,8 @@
+{
+ "orig_split_sklearn_auc": 0.4370666666666666,
+ "groups_shared_across_folds": 471,
+ "groupkfold_group_id": 0.5304555555555556,
+ "groupkfold_scene_id": 0.5281333333333333,
+ "n_groups": 299,
+ "n_scenes": 300
+}

@@ -1,0 +1,40 @@
+# Multitask Mixed V2 实验配置
+# 使用关系监督 + 几何监督（无归一化）
+
+# 数据路径
+train_list: data/lists/train_mixed_list.txt  # 320 seen + 200 rainy
+val_list: data/lists/seen_val_list.txt       # 80 clear val
+
+# 模型架构
+hidden_dim: 128
+num_layers: 3
+num_rel_types: 5
+node_feat_dim: 32   # 必须匹配数据
+edge_feat_dim: 8
+lang_feat_dim: 32
+
+# 训练参数
+batch_size: 1
+lr: 1e-4
+weight_decay: 1e-5
+num_epochs: 80
+device: cuda
+
+# 损失权重
+lambda_rel: 0.1
+lambda_geom: 0.05
+
+# 输出配置
+model_name: lc_org_mtl_mixed_v2.pt
+save_dir: outputs_v2/multitask_mixed_v2/lambda_rel0.1_geom0.05
+
+# 重要：不使用关系掩码（nomask baseline）
+use_relation_mask: false
+
+# 模型架构选项
+use_rel_gate: false  # 默认关闭；老实验完全不受影响
+
+# 日志配置
+log_interval: 20
+val_interval: 1
+

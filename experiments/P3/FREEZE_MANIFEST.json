@@ -1,0 +1,21 @@
+﻿{
+    "status":  "FROZEN_PRE_TRAINING",
+    "frozen_utc":  "2026-10-13T04:26:14Z",
+    "delta_primary_pp":  2,
+    "delta_sensitivity_pp":  1,
+    "new_seeds":  [
+                      1,
+                      3,
+                      5,
+                      11,
+                      13,
+                      17,
+                      19
+                  ],
+    "files":  {
+                  "pipeline.py":  "26fa8b55684f8bfa28671ce0dbb274e63fc43548d102aabee7d927dfca847b58",
+                  "PROTOCOL.md":  "b79ec8a21d9316f84969012e3ebe35a581162082b33297f3dc79694bebb29ad0",
+                  "models.py":  "88f636bb985a50ec87d05f1732a70bb3171dc509831d94b27c18ec8b3a4899b5",
+                  "PLAN_P3_DRAFT.md":  "d89d16177b706766367a85c595e5ff7423f118304d9380d2c87b178f651170da"
+              }
+}

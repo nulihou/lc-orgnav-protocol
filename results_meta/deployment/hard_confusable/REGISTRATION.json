@@ -1,0 +1,55 @@
+{
+  "version": "static_audit_v1_20261002",
+  "root_seed": 20261002,
+  "corruption_seeds": [
+    20261002,
+    20261003,
+    20261004,
+    20261005,
+    20261006,
+    20261007,
+    20261008,
+    20261009,
+    20261010,
+    20261011
+  ],
+  "primary_track": "hard_confusable",
+  "secondary_track": "scale300",
+  "track": "hard_confusable",
+  "sigma_m": [
+    0.25,
+    0.5,
+    1,
+    2
+  ],
+  "replicates": 10,
+  "permutations": 10,
+  "softmax_thresholds": [
+    0.5,
+    0.7,
+    0.9
+  ],
+  "validation_threshold_selection": "clean val only; max coverage >=95% accepted precision; fallback .9 with explicit failure",
+  "models_fixed_before_test": [
+    "graph_relation_gate",
+    "matched_geometry_mlp",
+    "query_geometry_attention",
+    "drivetransformer_task_adapted"
+  ],
+  "training_seed": 42,
+  "no_results_used_to_select_cases": true,
+  "test_manifest_sha256": "2118208c5408ac3e04868fbfcece4c09b1aff38839b89a062374df56d30e98d1",
+  "val_manifest_sha256": "61b05db374b12993f9f01679d63937af09b08c64cec7831078209ceca53c1840",
+  "deployment_spec_sha256": "3d5a8b88094b9ed2720f8c103528c672f72c08cabe73f51508a19fba5613a7b9",
+  "audit_source_sha256": {
+    "run_audit.py": "b0195270f6c1dfd7495548d6a507e28208dfbe485bb6f5e6aaa3ff01496b430b",
+    "test_transforms.py": "e34e0b4e09bf2de86a33a0be80766140d62210eb4b1314594e50437ef9feeb01",
+    "transforms.py": "88884b8181d64b14522ccbf5dcd5ec09ed23bd1022e18db5dee113d731380e54"
+  },
+  "query_flip_generation": "first unique different target under alternative policy (hard) or relation (scale), determined solely by fine geometry rule; disclose all exclusions",
+  "no_query": "raw ranker diagnostic bypasses query structural validator",
+  "invalid_cases_remain_in_denominator": true,
+  "bootstrap_seed": 20261002,
+  "bootstrap_samples": 10000,
+  "unit": "group_id; average task/replicate values within each group first"
+}

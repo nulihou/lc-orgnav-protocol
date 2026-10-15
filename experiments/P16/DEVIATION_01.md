@@ -1,0 +1,3 @@
+# Filename collision correction, before scoring
+
+The original prediction runner wrote arm B and arm b to filenames differing only in case. Windows treated these as the same path, so b was skipped by the resume check. The score count assertion stopped execution at 144 rather than 168 files, before outcomes were calculated. The frozen scripts and first prediction hash manifest are retained. Version 2 uses P14b in the filename for arm b only. The 144 existing predictions are reused unchanged; the missing 24 b predictions are now generated with the original frozen checkpoints and thresholds. No model, input, threshold, score definition or outcome-based selection changes.

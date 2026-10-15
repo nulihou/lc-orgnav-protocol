@@ -1,0 +1,256 @@
+{
+ "scale300": {
+  "methods": {
+   "graph_relation_gate": {
+    "per_seed_acc": [
+     99.0,
+     99.67,
+     100.0,
+     100.0,
+     100.0,
+     99.67,
+     100.0,
+     100.0,
+     100.0,
+     99.33
+    ],
+    "mean": 99.77,
+    "sd": 0.35
+   },
+   "matched_geometry_mlp": {
+    "per_seed_acc": [
+     99.33,
+     98.67,
+     98.67,
+     99.0,
+     98.33,
+     98.67,
+     98.67,
+     98.33,
+     99.0,
+     98.33
+    ],
+    "mean": 98.7,
+    "sd": 0.33
+   },
+   "query_geometry_attention": {
+    "per_seed_acc": [
+     99.0,
+     99.0,
+     98.33,
+     99.0,
+     99.0,
+     99.33,
+     98.67,
+     98.33,
+     98.33,
+     98.67
+    ],
+    "mean": 98.77,
+    "sd": 0.35
+   },
+   "drivetransformer_task_adapted": {
+    "per_seed_acc": [
+     98.67,
+     98.33,
+     97.67,
+     99.33,
+     98.33,
+     99.0,
+     98.33,
+     99.33,
+     99.0,
+     98.67
+    ],
+    "mean": 98.67,
+    "sd": 0.52
+   }
+  },
+  "graph_vs": {
+   "matched_geometry_mlp": {
+    "diff_pp": 1.07,
+    "ci95_pp": [
+     0.2,
+     2.2
+    ],
+    "ci90_pp": [
+     0.27,
+     1.97
+    ],
+    "tost_equiv_2pp": true,
+    "tost_equiv_1pp": false,
+    "sign_p": 0.2890625,
+    "groups_pos_neg": [
+     6,
+     2
+    ],
+    "sign_p_holm": 0.2890625
+   },
+   "query_geometry_attention": {
+    "diff_pp": 1.0,
+    "ci95_pp": [
+     0.23,
+     1.9
+    ],
+    "ci90_pp": [
+     0.37,
+     1.77
+    ],
+    "tost_equiv_2pp": true,
+    "tost_equiv_1pp": false,
+    "sign_p": 0.109375,
+    "groups_pos_neg": [
+     8,
+     2
+    ],
+    "sign_p_holm": 0.21875
+   },
+   "drivetransformer_task_adapted": {
+    "diff_pp": 1.1,
+    "ci95_pp": [
+     0.3,
+     2.1
+    ],
+    "ci90_pp": [
+     0.4,
+     1.93
+    ],
+    "tost_equiv_2pp": true,
+    "tost_equiv_1pp": false,
+    "sign_p": 0.0654296875,
+    "groups_pos_neg": [
+     9,
+     2
+    ],
+    "sign_p_holm": 0.1962890625
+   }
+  }
+ },
+ "hard_confusable": {
+  "methods": {
+   "graph_relation_gate": {
+    "per_seed_acc": [
+     97.0,
+     96.0,
+     96.67,
+     94.33,
+     94.67,
+     94.67,
+     96.0,
+     95.67,
+     95.67,
+     96.0
+    ],
+    "mean": 95.67,
+    "sd": 0.87
+   },
+   "matched_geometry_mlp": {
+    "per_seed_acc": [
+     94.0,
+     94.33,
+     96.67,
+     94.67,
+     93.0,
+     96.67,
+     93.67,
+     95.0,
+     95.67,
+     94.67
+    ],
+    "mean": 94.83,
+    "sd": 1.21
+   },
+   "query_geometry_attention": {
+    "per_seed_acc": [
+     94.67,
+     96.0,
+     96.33,
+     93.33,
+     95.67,
+     94.67,
+     95.33,
+     96.67,
+     92.67,
+     94.67
+    ],
+    "mean": 95.0,
+    "sd": 1.28
+   },
+   "drivetransformer_task_adapted": {
+    "per_seed_acc": [
+     95.33,
+     94.67,
+     96.0,
+     95.67,
+     95.67,
+     95.33,
+     96.0,
+     97.67,
+     95.0,
+     96.0
+    ],
+    "mean": 95.73,
+    "sd": 0.81
+   }
+  },
+  "graph_vs": {
+   "matched_geometry_mlp": {
+    "diff_pp": 0.83,
+    "ci95_pp": [
+     -0.93,
+     2.67
+    ],
+    "ci90_pp": [
+     -0.64,
+     2.36
+    ],
+    "tost_equiv_2pp": false,
+    "tost_equiv_1pp": false,
+    "sign_p": 0.4101027163746913,
+    "groups_pos_neg": [
+     23,
+     30
+    ],
+    "sign_p_holm": 1.0
+   },
+   "query_geometry_attention": {
+    "diff_pp": 0.67,
+    "ci95_pp": [
+     -0.8,
+     2.26
+    ],
+    "ci90_pp": [
+     -0.6,
+     1.97
+    ],
+    "tost_equiv_2pp": true,
+    "tost_equiv_1pp": false,
+    "sign_p": 0.7913664277791806,
+    "groups_pos_neg": [
+     30,
+     27
+    ],
+    "sign_p_holm": 1.0
+   },
+   "drivetransformer_task_adapted": {
+    "diff_pp": -0.07,
+    "ci95_pp": [
+     -1.61,
+     1.51
+    ],
+    "ci90_pp": [
+     -1.39,
+     1.25
+    ],
+    "tost_equiv_2pp": true,
+    "tost_equiv_1pp": false,
+    "sign_p": 0.8956832138895903,
+    "groups_pos_neg": [
+     28,
+     30
+    ],
+    "sign_p_holm": 1.0
+   }
+  }
+ }
+}

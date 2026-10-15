@@ -1,0 +1,551 @@
+{
+  "track": "hard_confusable",
+  "partition_rule": "test > validation > training; entire canonical-G/base-scene groups",
+  "outcome_blind": true,
+  "predictions_or_rollouts_read": false,
+  "historical": {
+    "train": {
+      "tasks": 3000,
+      "canonical_graphs": 2902,
+      "base_scenes": 2902,
+      "independent_groups": 2902,
+      "strata": {
+        "num_candidates": {
+          "3": 1350,
+          "5": 1200,
+          "8": 450
+        },
+        "query_type": {
+          "behind_farthest": 254,
+          "behind_leftmost": 247,
+          "behind_rightmost": 249,
+          "front_farthest": 238,
+          "front_leftmost": 259,
+          "front_rightmost": 253,
+          "left_farthest": 256,
+          "left_leftmost": 250,
+          "left_rightmost": 244,
+          "right_farthest": 252,
+          "right_leftmost": 244,
+          "right_rightmost": 254
+        },
+        "rel_type": {
+          "1": 750,
+          "2": 750,
+          "3": 750,
+          "4": 750
+        },
+        "query_policy": {
+          "farthest": 1000,
+          "leftmost": 1000,
+          "rightmost": 1000
+        },
+        "target_slot": {
+          "1": 747,
+          "2": 747,
+          "3": 746,
+          "4": 296,
+          "5": 296,
+          "6": 56,
+          "7": 56,
+          "8": 56
+        },
+        "target_index": {
+          "2": 747,
+          "3": 747,
+          "4": 746,
+          "5": 296,
+          "6": 296,
+          "7": 56,
+          "8": 56,
+          "9": 56
+        },
+        "canonical_target_index": {
+          "0": 581,
+          "1": 508,
+          "2": 418,
+          "3": 466,
+          "4": 450,
+          "5": 214,
+          "6": 220,
+          "7": 36,
+          "8": 48,
+          "9": 59
+        },
+        "town": {
+          "Town10HD_Opt": 3000
+        },
+        "weather": {
+          "clear": 3000
+        }
+      },
+      "all_targets_in_candidate_mask": true,
+      "input_dimensions": {
+        "{\"candidate_mask\":[10],\"edge_attr\":[90,8],\"edge_index\":[2,90],\"lang_feat\":[32],\"node_feats\":[10,32]}": 450,
+        "{\"candidate_mask\":[5],\"edge_attr\":[20,8],\"edge_index\":[2,20],\"lang_feat\":[32],\"node_feats\":[5,32]}": 1350,
+        "{\"candidate_mask\":[7],\"edge_attr\":[42,8],\"edge_index\":[2,42],\"lang_feat\":[32],\"node_feats\":[7,32]}": 1200
+      }
+    },
+    "val": {
+      "tasks": 800,
+      "canonical_graphs": 794,
+      "base_scenes": 794,
+      "independent_groups": 794,
+      "strata": {
+        "num_candidates": {
+          "3": 360,
+          "5": 320,
+          "8": 120
+        },
+        "query_type": {
+          "behind_farthest": 68,
+          "behind_leftmost": 68,
+          "behind_rightmost": 64,
+          "front_farthest": 66,
+          "front_leftmost": 58,
+          "front_rightmost": 76,
+          "left_farthest": 62,
+          "left_leftmost": 73,
+          "left_rightmost": 65,
+          "right_farthest": 71,
+          "right_leftmost": 68,
+          "right_rightmost": 61
+        },
+        "rel_type": {
+          "1": 200,
+          "2": 200,
+          "3": 200,
+          "4": 200
+        },
+        "query_policy": {
+          "farthest": 267,
+          "leftmost": 267,
+          "rightmost": 266
+        },
+        "target_slot": {
+          "1": 199,
+          "2": 199,
+          "3": 199,
+          "4": 79,
+          "5": 79,
+          "6": 15,
+          "7": 15,
+          "8": 15
+        },
+        "target_index": {
+          "2": 199,
+          "3": 199,
+          "4": 199,
+          "5": 79,
+          "6": 79,
+          "7": 15,
+          "8": 15,
+          "9": 15
+        },
+        "canonical_target_index": {
+          "0": 148,
+          "1": 114,
+          "2": 128,
+          "3": 128,
+          "4": 123,
+          "5": 58,
+          "6": 64,
+          "7": 10,
+          "8": 13,
+          "9": 14
+        },
+        "town": {
+          "Town10HD_Opt": 800
+        },
+        "weather": {
+          "clear": 800
+        }
+      },
+      "all_targets_in_candidate_mask": true,
+      "input_dimensions": {
+        "{\"candidate_mask\":[10],\"edge_attr\":[90,8],\"edge_index\":[2,90],\"lang_feat\":[32],\"node_feats\":[10,32]}": 120,
+        "{\"candidate_mask\":[5],\"edge_attr\":[20,8],\"edge_index\":[2,20],\"lang_feat\":[32],\"node_feats\":[5,32]}": 360,
+        "{\"candidate_mask\":[7],\"edge_attr\":[42,8],\"edge_index\":[2,42],\"lang_feat\":[32],\"node_feats\":[7,32]}": 320
+      }
+    },
+    "test": {
+      "tasks": 300,
+      "canonical_graphs": 299,
+      "base_scenes": 299,
+      "independent_groups": 299,
+      "strata": {
+        "num_candidates": {
+          "3": 135,
+          "5": 120,
+          "8": 45
+        },
+        "query_type": {
+          "behind_farthest": 26,
+          "behind_leftmost": 25,
+          "behind_rightmost": 24,
+          "front_farthest": 24,
+          "front_leftmost": 23,
+          "front_rightmost": 28,
+          "left_farthest": 22,
+          "left_leftmost": 32,
+          "left_rightmost": 21,
+          "right_farthest": 28,
+          "right_leftmost": 20,
+          "right_rightmost": 27
+        },
+        "rel_type": {
+          "1": 75,
+          "2": 75,
+          "3": 75,
+          "4": 75
+        },
+        "query_policy": {
+          "farthest": 100,
+          "leftmost": 100,
+          "rightmost": 100
+        },
+        "target_slot": {
+          "1": 75,
+          "2": 75,
+          "3": 75,
+          "4": 30,
+          "5": 30,
+          "6": 5,
+          "7": 5,
+          "8": 5
+        },
+        "target_index": {
+          "2": 75,
+          "3": 75,
+          "4": 75,
+          "5": 30,
+          "6": 30,
+          "7": 5,
+          "8": 5,
+          "9": 5
+        },
+        "canonical_target_index": {
+          "0": 54,
+          "1": 61,
+          "2": 36,
+          "3": 52,
+          "4": 44,
+          "5": 18,
+          "6": 22,
+          "7": 4,
+          "8": 3,
+          "9": 6
+        },
+        "town": {
+          "Town10HD_Opt": 300
+        },
+        "weather": {
+          "clear": 300
+        }
+      },
+      "all_targets_in_candidate_mask": true,
+      "input_dimensions": {
+        "{\"candidate_mask\":[10],\"edge_attr\":[90,8],\"edge_index\":[2,90],\"lang_feat\":[32],\"node_feats\":[10,32]}": 45,
+        "{\"candidate_mask\":[5],\"edge_attr\":[20,8],\"edge_index\":[2,20],\"lang_feat\":[32],\"node_feats\":[5,32]}": 135,
+        "{\"candidate_mask\":[7],\"edge_attr\":[42,8],\"edge_index\":[2,42],\"lang_feat\":[32],\"node_feats\":[7,32]}": 120
+      }
+    }
+  },
+  "historical_cross_split_intersections": {
+    "train-val": {
+      "group_id": 46,
+      "canonical_graph_sha256": 46,
+      "canonical_base_scene_sha256": 46
+    },
+    "train-test": {
+      "group_id": 18,
+      "canonical_graph_sha256": 18,
+      "canonical_base_scene_sha256": 18
+    },
+    "val-test": {
+      "group_id": 2,
+      "canonical_graph_sha256": 2,
+      "canonical_base_scene_sha256": 2
+    }
+  },
+  "frozen": {
+    "train": {
+      "tasks": 2932,
+      "canonical_graphs": 2838,
+      "base_scenes": 2838,
+      "independent_groups": 2838,
+      "strata": {
+        "num_candidates": {
+          "3": 1301,
+          "5": 1186,
+          "8": 445
+        },
+        "query_type": {
+          "behind_farthest": 248,
+          "behind_leftmost": 243,
+          "behind_rightmost": 245,
+          "front_farthest": 234,
+          "front_leftmost": 255,
+          "front_rightmost": 252,
+          "left_farthest": 240,
+          "left_leftmost": 240,
+          "left_rightmost": 238,
+          "right_farthest": 247,
+          "right_leftmost": 240,
+          "right_rightmost": 250
+        },
+        "rel_type": {
+          "1": 741,
+          "2": 736,
+          "3": 718,
+          "4": 737
+        },
+        "query_policy": {
+          "farthest": 969,
+          "leftmost": 978,
+          "rightmost": 985
+        },
+        "target_slot": {
+          "1": 726,
+          "2": 721,
+          "3": 733,
+          "4": 293,
+          "5": 293,
+          "6": 56,
+          "7": 56,
+          "8": 54
+        },
+        "target_index": {
+          "2": 726,
+          "3": 721,
+          "4": 733,
+          "5": 293,
+          "6": 293,
+          "7": 56,
+          "8": 56,
+          "9": 54
+        },
+        "canonical_target_index": {
+          "0": 563,
+          "1": 499,
+          "2": 406,
+          "3": 451,
+          "4": 442,
+          "5": 212,
+          "6": 218,
+          "7": 36,
+          "8": 47,
+          "9": 58
+        },
+        "town": {
+          "Town10HD_Opt": 2932
+        },
+        "weather": {
+          "clear": 2932
+        }
+      },
+      "all_targets_in_candidate_mask": true,
+      "input_dimensions": {
+        "{\"candidate_mask\":[10],\"edge_attr\":[90,8],\"edge_index\":[2,90],\"lang_feat\":[32],\"node_feats\":[10,32]}": 445,
+        "{\"candidate_mask\":[5],\"edge_attr\":[20,8],\"edge_index\":[2,20],\"lang_feat\":[32],\"node_feats\":[5,32]}": 1301,
+        "{\"candidate_mask\":[7],\"edge_attr\":[42,8],\"edge_index\":[2,42],\"lang_feat\":[32],\"node_feats\":[7,32]}": 1186
+      }
+    },
+    "val": {
+      "tasks": 798,
+      "canonical_graphs": 792,
+      "base_scenes": 792,
+      "independent_groups": 792,
+      "strata": {
+        "num_candidates": {
+          "3": 359,
+          "5": 319,
+          "8": 120
+        },
+        "query_type": {
+          "behind_farthest": 68,
+          "behind_leftmost": 68,
+          "behind_rightmost": 64,
+          "front_farthest": 65,
+          "front_leftmost": 58,
+          "front_rightmost": 76,
+          "left_farthest": 62,
+          "left_leftmost": 73,
+          "left_rightmost": 65,
+          "right_farthest": 71,
+          "right_leftmost": 68,
+          "right_rightmost": 60
+        },
+        "rel_type": {
+          "1": 199,
+          "2": 200,
+          "3": 200,
+          "4": 199
+        },
+        "query_policy": {
+          "farthest": 266,
+          "leftmost": 267,
+          "rightmost": 265
+        },
+        "target_slot": {
+          "1": 199,
+          "2": 197,
+          "3": 199,
+          "4": 79,
+          "5": 79,
+          "6": 15,
+          "7": 15,
+          "8": 15
+        },
+        "target_index": {
+          "2": 199,
+          "3": 197,
+          "4": 199,
+          "5": 79,
+          "6": 79,
+          "7": 15,
+          "8": 15,
+          "9": 15
+        },
+        "canonical_target_index": {
+          "0": 148,
+          "1": 113,
+          "2": 128,
+          "3": 127,
+          "4": 123,
+          "5": 58,
+          "6": 64,
+          "7": 10,
+          "8": 13,
+          "9": 14
+        },
+        "town": {
+          "Town10HD_Opt": 798
+        },
+        "weather": {
+          "clear": 798
+        }
+      },
+      "all_targets_in_candidate_mask": true,
+      "input_dimensions": {
+        "{\"candidate_mask\":[10],\"edge_attr\":[90,8],\"edge_index\":[2,90],\"lang_feat\":[32],\"node_feats\":[10,32]}": 120,
+        "{\"candidate_mask\":[5],\"edge_attr\":[20,8],\"edge_index\":[2,20],\"lang_feat\":[32],\"node_feats\":[5,32]}": 359,
+        "{\"candidate_mask\":[7],\"edge_attr\":[42,8],\"edge_index\":[2,42],\"lang_feat\":[32],\"node_feats\":[7,32]}": 319
+      }
+    },
+    "test": {
+      "tasks": 300,
+      "canonical_graphs": 299,
+      "base_scenes": 299,
+      "independent_groups": 299,
+      "strata": {
+        "num_candidates": {
+          "3": 135,
+          "5": 120,
+          "8": 45
+        },
+        "query_type": {
+          "behind_farthest": 26,
+          "behind_leftmost": 25,
+          "behind_rightmost": 24,
+          "front_farthest": 24,
+          "front_leftmost": 23,
+          "front_rightmost": 28,
+          "left_farthest": 22,
+          "left_leftmost": 32,
+          "left_rightmost": 21,
+          "right_farthest": 28,
+          "right_leftmost": 20,
+          "right_rightmost": 27
+        },
+        "rel_type": {
+          "1": 75,
+          "2": 75,
+          "3": 75,
+          "4": 75
+        },
+        "query_policy": {
+          "farthest": 100,
+          "leftmost": 100,
+          "rightmost": 100
+        },
+        "target_slot": {
+          "1": 75,
+          "2": 75,
+          "3": 75,
+          "4": 30,
+          "5": 30,
+          "6": 5,
+          "7": 5,
+          "8": 5
+        },
+        "target_index": {
+          "2": 75,
+          "3": 75,
+          "4": 75,
+          "5": 30,
+          "6": 30,
+          "7": 5,
+          "8": 5,
+          "9": 5
+        },
+        "canonical_target_index": {
+          "0": 54,
+          "1": 61,
+          "2": 36,
+          "3": 52,
+          "4": 44,
+          "5": 18,
+          "6": 22,
+          "7": 4,
+          "8": 3,
+          "9": 6
+        },
+        "town": {
+          "Town10HD_Opt": 300
+        },
+        "weather": {
+          "clear": 300
+        }
+      },
+      "all_targets_in_candidate_mask": true,
+      "input_dimensions": {
+        "{\"candidate_mask\":[10],\"edge_attr\":[90,8],\"edge_index\":[2,90],\"lang_feat\":[32],\"node_feats\":[10,32]}": 45,
+        "{\"candidate_mask\":[5],\"edge_attr\":[20,8],\"edge_index\":[2,20],\"lang_feat\":[32],\"node_feats\":[5,32]}": 135,
+        "{\"candidate_mask\":[7],\"edge_attr\":[42,8],\"edge_index\":[2,42],\"lang_feat\":[32],\"node_feats\":[7,32]}": 120
+      }
+    }
+  },
+  "removed_counts": {
+    "train": 68,
+    "val": 2,
+    "test": 0
+  },
+  "frozen_cross_split_intersections": {
+    "train-val": {
+      "group_id": 0,
+      "canonical_graph_sha256": 0,
+      "canonical_base_scene_sha256": 0
+    },
+    "train-test": {
+      "group_id": 0,
+      "canonical_graph_sha256": 0,
+      "canonical_base_scene_sha256": 0
+    },
+    "val-test": {
+      "group_id": 0,
+      "canonical_graph_sha256": 0,
+      "canonical_base_scene_sha256": 0
+    }
+  },
+  "all_frozen_intersections_zero": true,
+  "unchanged_original_test_tasks_and_order": true,
+  "unchanged_npz_arrays": true,
+  "canonical_graphs_with_multiple_query_target_pairs": 158,
+  "same_graph_and_query_label_conflicts": [],
+  "source_scenario_json_sha256": {
+    "_data_classification_20260531/paper_used_data/runs/hard_confusable_20260526/scenarios/train_scenarios.json": "647f9e51be122f0657d0cc6ac4ff5a08ce33611024ff832e58e58148ec5648be",
+    "_data_classification_20260531/paper_used_data/runs/hard_confusable_20260526/scenarios/val_scenarios.json": "f6cd27ce6bcb257f1d916371f29467b8437ce0f9835575b6f6d6c059f28ebeb0",
+    "_data_classification_20260531/paper_used_data/runs/hard_confusable_20260526/scenarios/test_scenarios.json": "0f4e96bac204c95b7b9cf5ab6465247a29b71dabad33c24460e837d18078725a"
+  }
+}

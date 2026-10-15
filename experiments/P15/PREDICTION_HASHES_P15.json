@@ -1,0 +1,12 @@
+{
+ "preds_p15_nus.jsonl": "e904a6fc8383fbdf04b919df86d1ba0ff457748e8cb12b45a7c8071e7d56aad7",
+ "preds_p15_t10_hard_confusable_test.jsonl": "56e6bcd9884cb605fefe18f10cc58fec122463fb26f2cc72578d1ee936d35ac1",
+ "preds_p15_t10_hard_confusable_train.jsonl": "80a7a29028fec8515059456e069995fd589e5368a376ac2240f20ce91a754b2b",
+ "preds_p15_t10_hard_confusable_val.jsonl": "a98fc9937894a13d849b9a6baa4b03021b170c8fbf756cd09129fdbe73916952",
+ "preds_p15_t10_hard_rot.jsonl": "5684e7395b8de63257fc648f3edd37a707e067f92fd86e06c3a91997f97397b5",
+ "preds_p15_t10_scale300_test.jsonl": "669afd083431570e58dbf44908356b21659c2964b53895030c227b9a8f06846a",
+ "preds_p15_t10_scale300_train.jsonl": "b530eecafea1f093e7333895e29478e7112e7e100b2d301c3a515db69170c305",
+ "preds_p15_t10_scale300_val.jsonl": "04af8a24e564a4b558ae2c17bec75f859f68fc011bad571db850447f5055f858",
+ "preds_p15_t2c_kw.jsonl": "c81e82b9756febd6b0c55c0e5448044f9b0cf4334bd16740562cce3d1b5fffe9",
+ "preds_p15_town05.jsonl": "ed5027fa127346c6411ee3dc23953284ce88bf7af09b0ca9e026bcce21ffbef4"
+}

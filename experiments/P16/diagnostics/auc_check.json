@@ -1,0 +1,53 @@
+{
+ "n": 600,
+ "per_feature_old_vs_sklearn": {
+  "n_candidates": [
+   0.501611,
+   0.5
+  ],
+  "max_score": [
+   0.478222,
+   0.474922
+  ],
+  "score_margin": [
+   0.450244,
+   0.442628
+  ],
+  "score_entropy": [
+   0.513144,
+   0.514389
+  ],
+  "top1_distance_ego": [
+   0.455367,
+   0.455372
+  ],
+  "top1_distance_anchor": [
+   0.477333,
+   0.477344
+  ],
+  "min_candidate_distance_ego": [
+   0.491611,
+   0.491583
+  ],
+  "mean_candidate_distance_ego": [
+   0.473689,
+   0.4737
+  ],
+  "relation_match_ratio": [
+   0.501456,
+   0.5
+  ]
+ },
+ "feature_names": [
+  "n_candidates",
+  "max_score",
+  "score_margin",
+  "score_entropy",
+  "top1_distance_ego",
+  "top1_distance_anchor",
+  "min_candidate_distance_ego",
+  "mean_candidate_distance_ego",
+  "relation_match_count",
+  "relation_match_ratio"
+ ]
+}

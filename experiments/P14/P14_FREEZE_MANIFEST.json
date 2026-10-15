@@ -1,0 +1,16 @@
+{
+    "status":  "FROZEN_BEFORE_TRAINING",
+    "frozen_at":  "2026-10-14T11:37:08+08:00",
+    "files":  {
+                  "p14_common.py":  "03c23ca9947262a7f3dc5be4e81c715b2af02afc69bbb4f583a376cb7ad91936",
+                  "p14_predict.py":  "8d6e4930c368b64922291d3382cb36dfe8d1bbe443922757fb4cf634e071ce84",
+                  "p14_score.py":  "a9aaef84d6a66b609ec26ba8fc5543c9bc411193225e2f83548c1babebaea49e",
+                  "p14_train.py":  "23bb0390d8dc5951ada67d13c7331071349f42756e2801b30b13367abf89198e",
+                  "PROTOCOL.md":  "810e98bf49cd2892dfa072ee6363118957bf58951773b7852da4d54a73c49849",
+                  "run_p14.ps1":  "7847c5438b4d027f165247c87c325df65d72b444c3d5cb389ea6cec208dc3191",
+                  "code/r3_deployment\\transforms.py":  "88884b8181d64b14522ccbf5dcd5ec09ed23bd1022e18db5dee113d731380e54",
+                  "code/r3_selectors\\pipeline.py":  "26fa8b55684f8bfa28671ce0dbb274e63fc43548d102aabee7d927dfca847b58",
+                  "code/r3_selectors\\models.py":  "88f636bb985a50ec87d05f1732a70bb3171dc509831d94b27c18ec8b3a4899b5",
+                  "code/lc_org_nav\\model.py":  "39222e184019204e12b242ec2f6ab4de48993193f4017e7fb5e223e8c00d6d74"
+              }
+}

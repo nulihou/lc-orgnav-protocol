@@ -1,0 +1,527 @@
+[
+  {
+    "id": 160,
+    "global_id": 3960,
+    "split": "test",
+    "town": "Town10HD_Opt",
+    "weather": "clear",
+    "scenario_type": "scale300_relation_identifiable",
+    "query_type": "right",
+    "rel_type": 4,
+    "num_candidates": 5,
+    "ego_spawn_idx": 119,
+    "anchor_spawn_idx": 119,
+    "target_spawn_idx": 46,
+    "target_idx_gt": 3,
+    "target_index_gt": 3,
+    "candidate_spawn_indices": [
+      119,
+      50,
+      57,
+      46,
+      97,
+      84
+    ],
+    "candidate_dists": [
+      0.0,
+      39.94,
+      40.31,
+      12.34,
+      27.65,
+      41.74
+    ],
+    "candidate_bearings": [
+      0.0,
+      -157.87,
+      -179.82,
+      -68.16,
+      118.76,
+      96.19
+    ],
+    "start_dist": 12.34,
+    "node_spawn_indices": [
+      119,
+      50,
+      57,
+      46,
+      97,
+      84
+    ],
+    "candidate_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "target_relation_unique": true,
+    "decoy_policy": "relation-negative-hard-distance-matched"
+  },
+  {
+    "id": 169,
+    "global_id": 3969,
+    "split": "test",
+    "town": "Town10HD_Opt",
+    "weather": "clear",
+    "scenario_type": "scale300_relation_identifiable",
+    "query_type": "behind",
+    "rel_type": 2,
+    "num_candidates": 5,
+    "ego_spawn_idx": 96,
+    "anchor_spawn_idx": 96,
+    "target_spawn_idx": 90,
+    "target_idx_gt": 5,
+    "target_index_gt": 5,
+    "candidate_spawn_indices": [
+      96,
+      102,
+      91,
+      11,
+      103,
+      90
+    ],
+    "candidate_dists": [
+      0.0,
+      34.0,
+      8.1,
+      43.67,
+      35.1,
+      11.24
+    ],
+    "candidate_bearings": [
+      0.0,
+      141.11,
+      -80.77,
+      36.9,
+      148.67,
+      180.0
+    ],
+    "start_dist": 11.24,
+    "node_spawn_indices": [
+      96,
+      102,
+      91,
+      11,
+      103,
+      90
+    ],
+    "candidate_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "target_relation_unique": true,
+    "decoy_policy": "relation-negative-hard-distance-matched"
+  },
+  {
+    "id": 171,
+    "global_id": 3971,
+    "split": "test",
+    "town": "Town10HD_Opt",
+    "weather": "clear",
+    "scenario_type": "scale300_relation_identifiable",
+    "query_type": "front",
+    "rel_type": 1,
+    "num_candidates": 2,
+    "ego_spawn_idx": 87,
+    "anchor_spawn_idx": 87,
+    "target_spawn_idx": 112,
+    "target_idx_gt": 2,
+    "target_index_gt": 2,
+    "candidate_spawn_indices": [
+      87,
+      32,
+      112
+    ],
+    "candidate_dists": [
+      0.0,
+      32.83,
+      7.72
+    ],
+    "candidate_bearings": [
+      0.0,
+      -167.69,
+      -26.96
+    ],
+    "start_dist": 7.72,
+    "node_spawn_indices": [
+      87,
+      32,
+      112
+    ],
+    "candidate_indices": [
+      1,
+      2
+    ],
+    "target_relation_unique": true,
+    "decoy_policy": "relation-negative-hard-distance-matched"
+  },
+  {
+    "id": 182,
+    "global_id": 3982,
+    "split": "test",
+    "town": "Town10HD_Opt",
+    "weather": "clear",
+    "scenario_type": "scale300_relation_identifiable",
+    "query_type": "behind",
+    "rel_type": 2,
+    "num_candidates": 5,
+    "ego_spawn_idx": 111,
+    "anchor_spawn_idx": 111,
+    "target_spawn_idx": 102,
+    "target_idx_gt": 1,
+    "target_index_gt": 1,
+    "candidate_spawn_indices": [
+      111,
+      102,
+      96,
+      86,
+      67,
+      115
+    ],
+    "candidate_dists": [
+      0.0,
+      7.69,
+      41.14,
+      32.69,
+      19.11,
+      6.02
+    ],
+    "candidate_bearings": [
+      0.0,
+      -152.76,
+      -132.96,
+      -138.77,
+      10.6,
+      35.52
+    ],
+    "start_dist": 7.69,
+    "node_spawn_indices": [
+      111,
+      102,
+      96,
+      86,
+      67,
+      115
+    ],
+    "candidate_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "target_relation_unique": true,
+    "decoy_policy": "relation-negative-hard-distance-matched"
+  },
+  {
+    "id": 183,
+    "global_id": 3983,
+    "split": "test",
+    "town": "Town10HD_Opt",
+    "weather": "clear",
+    "scenario_type": "scale300_relation_identifiable",
+    "query_type": "left",
+    "rel_type": 3,
+    "num_candidates": 5,
+    "ego_spawn_idx": 57,
+    "anchor_spawn_idx": 57,
+    "target_spawn_idx": 34,
+    "target_idx_gt": 2,
+    "target_index_gt": 2,
+    "candidate_spawn_indices": [
+      57,
+      51,
+      34,
+      97,
+      114,
+      55
+    ],
+    "candidate_dists": [
+      0.0,
+      38.9,
+      39.76,
+      36.38,
+      16.62,
+      21.07
+    ],
+    "candidate_bearings": [
+      0.0,
+      -163.19,
+      106.03,
+      42.06,
+      -43.19,
+      179.84
+    ],
+    "start_dist": 39.76,
+    "node_spawn_indices": [
+      57,
+      51,
+      34,
+      97,
+      114,
+      55
+    ],
+    "candidate_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "target_relation_unique": true,
+    "decoy_policy": "relation-negative-hard-distance-matched"
+  },
+  {
+    "id": 185,
+    "global_id": 3985,
+    "split": "test",
+    "town": "Town10HD_Opt",
+    "weather": "clear",
+    "scenario_type": "scale300_relation_identifiable",
+    "query_type": "right",
+    "rel_type": 4,
+    "num_candidates": 3,
+    "ego_spawn_idx": 5,
+    "anchor_spawn_idx": 5,
+    "target_spawn_idx": 12,
+    "target_idx_gt": 3,
+    "target_index_gt": 3,
+    "candidate_spawn_indices": [
+      5,
+      3,
+      11,
+      12
+    ],
+    "candidate_dists": [
+      0.0,
+      39.96,
+      8.06,
+      7.54
+    ],
+    "candidate_bearings": [
+      0.0,
+      146.44,
+      -154.51,
+      -112.4
+    ],
+    "start_dist": 7.54,
+    "node_spawn_indices": [
+      5,
+      3,
+      11,
+      12
+    ],
+    "candidate_indices": [
+      1,
+      2,
+      3
+    ],
+    "target_relation_unique": true,
+    "decoy_policy": "relation-negative-hard-distance-matched"
+  },
+  {
+    "id": 188,
+    "global_id": 3988,
+    "split": "test",
+    "town": "Town10HD_Opt",
+    "weather": "clear",
+    "scenario_type": "scale300_relation_identifiable",
+    "query_type": "behind",
+    "rel_type": 2,
+    "num_candidates": 3,
+    "ego_spawn_idx": 98,
+    "anchor_spawn_idx": 98,
+    "target_spawn_idx": 41,
+    "target_idx_gt": 1,
+    "target_index_gt": 1,
+    "candidate_spawn_indices": [
+      98,
+      41,
+      37,
+      76
+    ],
+    "candidate_dists": [
+      0.0,
+      17.95,
+      34.65,
+      15.26
+    ],
+    "candidate_bearings": [
+      0.0,
+      179.61,
+      -118.89,
+      -43.46
+    ],
+    "start_dist": 17.95,
+    "node_spawn_indices": [
+      98,
+      41,
+      37,
+      76
+    ],
+    "candidate_indices": [
+      1,
+      2,
+      3
+    ],
+    "target_relation_unique": true,
+    "decoy_policy": "relation-negative-hard-distance-matched"
+  },
+  {
+    "id": 201,
+    "global_id": 4001,
+    "split": "test",
+    "town": "Town10HD_Opt",
+    "weather": "clear",
+    "scenario_type": "scale300_relation_identifiable",
+    "query_type": "right",
+    "rel_type": 4,
+    "num_candidates": 3,
+    "ego_spawn_idx": 2,
+    "anchor_spawn_idx": 2,
+    "target_spawn_idx": 94,
+    "target_idx_gt": 2,
+    "target_index_gt": 2,
+    "candidate_spawn_indices": [
+      2,
+      100,
+      94,
+      103
+    ],
+    "candidate_dists": [
+      0.0,
+      26.09,
+      17.16,
+      44.78
+    ],
+    "candidate_bearings": [
+      0.0,
+      42.9,
+      -119.26,
+      160.73
+    ],
+    "start_dist": 17.16,
+    "node_spawn_indices": [
+      2,
+      100,
+      94,
+      103
+    ],
+    "candidate_indices": [
+      1,
+      2,
+      3
+    ],
+    "target_relation_unique": true,
+    "decoy_policy": "relation-negative-hard-distance-matched"
+  },
+  {
+    "id": 203,
+    "global_id": 4003,
+    "split": "test",
+    "town": "Town10HD_Opt",
+    "weather": "clear",
+    "scenario_type": "scale300_relation_identifiable",
+    "query_type": "front",
+    "rel_type": 1,
+    "num_candidates": 5,
+    "ego_spawn_idx": 17,
+    "anchor_spawn_idx": 17,
+    "target_spawn_idx": 83,
+    "target_idx_gt": 5,
+    "target_index_gt": 5,
+    "candidate_spawn_indices": [
+      17,
+      19,
+      88,
+      64,
+      54,
+      83
+    ],
+    "candidate_dists": [
+      0.0,
+      43.33,
+      21.47,
+      27.23,
+      17.84,
+      30.97
+    ],
+    "candidate_bearings": [
+      0.0,
+      -170.72,
+      -150.27,
+      -172.46,
+      -156.38,
+      -13.1
+    ],
+    "start_dist": 30.97,
+    "node_spawn_indices": [
+      17,
+      19,
+      88,
+      64,
+      54,
+      83
+    ],
+    "candidate_indices": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "target_relation_unique": true,
+    "decoy_policy": "relation-negative-hard-distance-matched"
+  },
+  {
+    "id": 205,
+    "global_id": 4005,
+    "split": "test",
+    "town": "Town10HD_Opt",
+    "weather": "clear",
+    "scenario_type": "scale300_relation_identifiable",
+    "query_type": "front",
+    "rel_type": 1,
+    "num_candidates": 3,
+    "ego_spawn_idx": 84,
+    "anchor_spawn_idx": 84,
+    "target_spawn_idx": 37,
+    "target_idx_gt": 1,
+    "target_index_gt": 1,
+    "candidate_spawn_indices": [
+      84,
+      37,
+      43,
+      33
+    ],
+    "candidate_dists": [
+      0.0,
+      26.27,
+      30.51,
+      38.66
+    ],
+    "candidate_bearings": [
+      0.0,
+      -0.07,
+      -114.05,
+      -179.91
+    ],
+    "start_dist": 26.27,
+    "node_spawn_indices": [
+      84,
+      37,
+      43,
+      33
+    ],
+    "candidate_indices": [
+      1,
+      2,
+      3
+    ],
+    "target_relation_unique": true,
+    "decoy_policy": "relation-negative-hard-distance-matched"
+  }
+]

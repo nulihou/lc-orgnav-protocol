@@ -1,0 +1,43 @@
+# Multitask Online-Multi 专用模型配置（带 Ranking Loss 优化）
+# λ_rel=0.1, λ_geom=0.02, λ_rank=0.1
+# 训练集：混合训练集 + 多候选训练集（使用 multi_train_final，已分出 multi_val）
+
+# 数据路径
+train_list: data/lists/train_mixed_plus_multi_final.txt  # 520 mixed + 1800 multi = 2320 samples
+val_list: data/lists/multi_val_list.txt                  # 200 multi val (用于早停和超参调优)
+
+# 模型架构
+hidden_dim: 128
+num_layers: 3
+num_rel_types: 5
+node_feat_dim: 32   # 必须匹配数据
+edge_feat_dim: 8
+lang_feat_dim: 32
+
+# 训练参数
+batch_size: 1
+lr: 1e-4
+weight_decay: 1e-5
+num_epochs: 80
+device: cuda
+
+# 损失权重
+lambda_rel: 0.1
+lambda_geom: 0.02   # 降低几何损失权重，更多关注分类
+lambda_rank: 0.1    # Ranking loss 权重（新增）
+rank_margin: 1.0    # Ranking loss margin
+
+# 输出配置
+model_name: lc_org_mtl_mixed_v2_rank.pt
+save_dir: outputs_v2/multitask_mixed_v2_online_multi_rank/lambda_rel0.1_geom0.02
+
+# 重要：不使用关系掩码（nomask baseline）
+use_relation_mask: false
+
+# 日志配置
+log_interval: 20
+val_interval: 1
+
+# 随机种子
+seed: 0
+
