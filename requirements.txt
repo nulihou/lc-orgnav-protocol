@@ -1,0 +1,12 @@
+numpy
+torch
+matplotlib
+pandas
+scipy
+tqdm
+networkx
+PyMuPDF
+tensorboard
+
+# Optional, only needed for online closed-loop CARLA runs:
+# carla==0.9.14

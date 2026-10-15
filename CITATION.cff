@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: "LC-ORGNav Target-Selection Evaluation Protocol (T-ITS revision companion)"
+message: "If you use this protocol software, please cite the T-ITS manuscript and the Zenodo DOI once minted."
+type: software
+authors:
+  - family-names: Hou
+    given-names: Mingyang
+    email: houmingyang@neusoft.edu.cn
+    affiliation: "Dalian Neusoft University of Information"
+repository-code: "https://github.com/nulihou/lc-orgnav-protocol"
+license: MIT
+version: "0.1.0"
+# Replace after Zenodo Publish; do not invent a DOI.
+doi: "10.5281/zenodo.XXXXXXX"
+date-released: "2026-10-15"
